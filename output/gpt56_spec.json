@@ -1,0 +1,36 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-gpt56",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ AI",
+  "footer_left": "openai.com",
+  "footer_right": "Arnfar",
+  "cards": [
+    {
+      "kind": "code",
+      "eyebrow": "OPENAI · GPT-5.6",
+      "headline": ["GPT-5.6 ມາແລ້ວ", "Sol · Terra · Luna"],
+      "accent": "AI ລຸ້ນໃໝ່ແຮງທີ່ສຸດ",
+      "subhead": "3 ລະດັບ: ສະຫຼາດ · ໄວ · ປະຫຍັດ",
+      "file": "main.py",
+      "badge": "AI Agent",
+      "hashtags": "#arnfar  #GPT56  #OpenAI  #LaoTech"
+    },
+    {
+      "kind": "points",
+      "title": "3 ລະດັບ ມີຫຍັງແດ່?",
+      "items": [
+        {"mark": "num", "text": "Sol — ເຮືອທຫຼວງ ແຮງສຸດ ສຳລັບວຽກຍາກ"},
+        {"mark": "num", "text": "Terra — ວຽກປະຈຳວັນ, ຖືກກວ່າລຸ້ນເກົ່າ 2 ເທົ່າ"},
+        {"mark": "num", "text": "Luna — ໄວ ແລະ ປະຫຍັດ, ຄ່າໃຊ້ຈ່າຍຕ່ຳສຸດ"},
+        {"mark": "check", "text": "ໂໝດ ultra ໃໝ່ — subagents ຊ່ວຍກັນເຮັດວຽກ"},
+        {"mark": "cross", "text": "ຍັງເປັນ preview — ບໍ່ທັນເຂົ້າ ChatGPT ທົ່ວໄປ"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "2x",
+      "label": "Terra ຖືກກວ່າ GPT-5.5",
+      "note": "ແຮງໃກ້ຄຽງລຸ້ນເກົ່າ ແຕ່ປະຫຍັດກວ່າ"
+    }
+  ]
+}

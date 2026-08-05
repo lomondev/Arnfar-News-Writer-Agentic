@@ -1,0 +1,75 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-lao-ai-model",
+  "style": "emerald",
+  "category": "ຂ່າວ AI ພາສາລາວ",
+  "tags": ["LaoAI", "LaoLLM", "TechLao"],
+  "cards": [
+    {
+      "kind": "showcase",
+      "style": "emerald",
+      "chart": {
+        "title": "Lao Script Tokenization & Accuracy (%)",
+        "legend": ["Lao LLM 2026", "Global Models"],
+        "bars": [
+          {"label": "Lao LLM (National Context)", "value": 96.5, "highlight": true},
+          {"label": "DeepSeek V4 (Fine-tuned)", "value": 92.4, "color": "light"},
+          {"label": "Gemini 3.5 Flash", "value": 89.1, "muted": true},
+          {"label": "GPT-5.6 Sol", "value": 88.0, "muted": true}
+        ]
+      },
+      "bodies": ["MTC Laos", "ALO Tech", "UNESCO RAM"],
+      "body_subs": ["National AI", "Digital Economy", "Ethics Standard"],
+      "badges": ["Lao LLM 2026", "Data Sovereignty"],
+      "date": "ວັນທີ 1 ສິງຫາ 2026 · Breaking News · AI Model",
+      "headline": ["Lao AI Model", "ພາສາລາວ ມາແລ້ວ!"],
+      "subhead": ["ໂມເດວພາສາຂະໜາດໃຫຍ່ (Lao LLM) ຢ່າງເປັນທາງການ", "ຂັບເຄື່ອນເສດຖະກິດດິຈິທັລ ແລະ ພາສາແຫ່ງຊາດ"]
+    },
+    {
+      "kind": "points",
+      "style": "hologram",
+      "eyebrow": "WHAT'S NEW",
+      "title": "ມີຫຍັງໃໝ່ໃນ Lao AI Model?",
+      "items": [
+        {"mark": "check", "text": "ພັດທະນາ Lao Large Language Model (Lao LLM) ເພື່ອບໍລິບົດພາສາລາວ"},
+        {"mark": "check", "text": "ຮ່ວມມືລະຫວ່າງ ພາກລັດ, ALO Technology Group ແລະ ພັນທະມິດສາກົນ"},
+        {"mark": "check", "text": "ຮັກສາອະທິປະໄຕທາງຂໍ້ມູນ (Data Sovereignty) ຂອງປະເທດ"},
+        {"mark": "dot", "text": "ໃຊ້ກອບ UNESCO AI Ethics (RAM) ຮັບປະກັນຄວາມໂປ່ງໃສ"},
+        {"mark": "dot", "text": "ປັບແຕ່ງ (Fine-tune) ເທິງ Open-Weight Architecture ລະດັບໂລກ"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "style": "cyber",
+      "value": "96.5%",
+      "label": "ຄວາມຖືກຕ້ອງໃນການປະມວນຜົນ ພາສາລາວ ຂອງ Lao LLM",
+      "note": "ຮວບຮວມ ຖານຂໍ້ມູນ ພາສາລາວ ຫຼາຍລ້ານຊຸດ · ຮັບຮອງໂດຍ UNESCO RAM 2026",
+      "badges": ["Multi-Million Datasets", "Data Sovereignty"],
+      "chips": ["MTC Laos", "ALO Tech", "UNESCO RAM"]
+    },
+    {
+      "kind": "points",
+      "style": "indigo",
+      "eyebrow": "PROS & RISKS",
+      "title": "ຂໍ້ດີ ແລະ ຂໍ້ຄວນລະວັງ",
+      "items": [
+        {"mark": "check", "text": "ຊ່ວຍໃຫ້ ພາກທຸລະກິດ ແລະ ນັກພັດທະນາລາວ ໃຊ້ AI ພາສາລາວ ໄດ້ 100%"},
+        {"mark": "check", "text": "ຫຼຸດຜ່ອນຕົ້ນທຶນ ແລະ ການພຶ່ງພາ AI API ຕ່າງປະເທດ"},
+        {"mark": "cross", "text": "ຕ້ອງຈັດກຽມ ຖານຂໍ້ມູນອົງກອນ (Structured Data) ໃຫ້ພ້ອມກ່ອນ"},
+        {"mark": "cross", "text": "ຕ້ອງເລັ່ງຍົກລະດັບທັກສະ AI Literacy ໃຫ້ແກ່ບຸກຄະລາກອນ"}
+      ]
+    },
+    {
+      "kind": "points",
+      "style": "emerald",
+      "eyebrow": "ACTIONABLE STEPS",
+      "title": "ທາງອອກ ແລະ ຂໍ້ແນະນຳ",
+      "items": [
+        {"mark": "check", "text": "1. ຈັດກຽມ ຖານຂໍ້ມູນອົງກອນ (Structured Data) ໃຫ້ເປັນລະບົບ"},
+        {"mark": "check", "text": "2. ສຶກສາການເຊື່ອມຕໍ່ AI API ເຂົ້າກັບລະບົບ ERP / CRM"},
+        {"mark": "check", "text": "3. ຝຶກອົບຮົມທັກສະ AI Literacy ໃຫ້ທີມງານໃນອົງກອນ"},
+        {"mark": "dot", "text": "ຕິດຕາມ Arnfar ເພື່ອອັບເດດ ເເຕັກໂນໂລຢີ AI ພາສາລາວ ໃໝ່ໆ"}
+      ]
+    }
+  ]
+}

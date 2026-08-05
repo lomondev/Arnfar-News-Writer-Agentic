@@ -1,0 +1,39 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-claude-opus-48",
+  "brand": "Arnfar",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "footer_left": "anthropic.com/news/claude-opus-4-8",
+  "footer_right": "Claude Opus 4.8",
+  "cards": [
+    {
+      "kind": "code",
+      "eyebrow": "ANTHROPIC · CLAUDE OPUS 4.8",
+      "headline": ["Claude Opus 4.8 ມາແລ້ວ", "ເກັ່ງ coding ແລະ Agent ຂຶ້ນ"],
+      "accent": "ປ່ອຍ 28 ພຶດສະພາ 2026",
+      "subhead": "ໂມເດລ computer-use ທີ່ແຮງທີ່ສຸດຂອງ Anthropic ຈົນເຖິງຕອນນີ້",
+      "file": "main.py",
+      "badge": "AI Agent",
+      "hashtags": "#arnfar  #ClaudeOpus  #AICoding  #LaoTech"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ສິ່ງທີ່ປ່ຽນແປງ",
+      "title": "ມີຫຍັງໃໝ່ໃນ Opus 4.8",
+      "items": [
+        {"mark": "check", "text": "88.6% ເທິງ SWE-Bench Verified — ແກ້ບັກໃນໂຄ້ດຈິງເກັ່ງຂຶ້ນ"},
+        {"mark": "check", "text": "84% ເທິງ Online-Mind2Web — ນຳໜ້າ Opus 4.7 ແລະ GPT-5.5"},
+        {"mark": "check", "text": "Dynamic Workflows: ແລ່ນ subagent ຂະໜານກັນໄດ້ເຖິງ 1,000 ໂຕ"},
+        {"mark": "dot", "text": "ລາຄາເທົ່າເກົ່າ: 5 USD input / 25 USD output ຕໍ່ 1 ລ້ານ token"},
+        {"mark": "cross", "text": "Dynamic Workflows ຍັງເປັນ research preview — ໃຊ້ token ໄວ"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "category": "ປະສິດທິພາບ Coding",
+      "value": "88.6%",
+      "label": "ຄະແນນເທິງ SWE-Bench Verified",
+      "note": "ການວັດຄວາມສາມາດແກ້ບັກໃນໂຄ້ດຈິງ"
+    }
+  ]
+}

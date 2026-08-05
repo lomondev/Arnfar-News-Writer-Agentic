@@ -1,0 +1,57 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-cc-faceoff",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "footer_tags": "#arnfar   #ArnfarERP   #arnfar.com",
+  "motif": "chart",
+  "tags": ["ClaudeFable5", "GPT56", "AIModels"],
+  "cards": [
+    {
+      "kind": "showcase",
+      "chart": {
+        "title": "Agents' Last Exam",
+        "legend": ["OpenAI", "Claude"],
+        "bars": [
+          {"label": "GPT-5.6 Sol", "value": 53.6, "highlight": true},
+          {"label": "Claude Fable 5", "value": 40.5, "color": "light"}
+        ]
+      },
+      "bodies": ["Sol", "Terra", "Luna"],
+      "body_subs": ["ເຮືອທຸງ", "ກາງ", "ໄວ/ຖືກ"],
+      "badges": ["Fable ນຳ SWE-Bench Pro", "Sol ນຳ Agentic"],
+      "date": "ວັນທີ 10 ເດືອນ 07 ປີ 2026 · Release",
+      "headline": ["Fable 5 ⚔️ GPT-5.6", "ປະທະໂມເດລລ່າສຸດ"],
+      "subhead": ["GPT-5.6 Sol: 09/07 · limited preview", "Claude Fable 5: 01/07 · ທົ່ວໂລກ"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "GPT-5.6 FAMILY",
+      "title": "3 ຊັ້ນ ແລະ ລາຄາ (ຕໍ່ 1M token)",
+      "items": [
+        {"mark": "num", "text": "Sol (ເຮືອທຸງ): $5 / $30 — SOTA agentic, BrowseComp 92.2%"},
+        {"mark": "num", "text": "Terra (ກາງ): $2.50 / $15 — ໃກ້ GPT-5.5"},
+        {"mark": "num", "text": "Luna (ໄວ/ຖືກ): $1 / $6 — ຄຸ້ມສຳລັບ startup"},
+        {"mark": "dot", "text": "ທຽບ: Opus $5/$25 · Claude Fable 5 $10/$50"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "+13.1",
+      "label": "GPT-5.6 Sol ນຳ Fable 5 ໃນ Agents' Last Exam",
+      "note": "53.6 vs 40.5 · ວຽກ agent 55 ສາຂາ",
+      "badges": ["Sol ນຳ Agentic"],
+      "chips": ["Fable ນຳ SWE-Bench Pro", "context 1M ທັງຄູ່"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຂໍ້ດີ / ຂໍ້ເສຍ",
+      "title": "ໃຜເໝາະກັບໃຜ",
+      "items": [
+        {"mark": "check", "text": "GPT-5.6: agentic + ຄົ້ນເວັບ + OSWorld, 3 ຊັ້ນລາຄາ"},
+        {"mark": "check", "text": "Fable 5: ນຳ SWE-Bench Pro · ໃຊ້ໄດ້ທົ່ວໂລກແລ້ວ"},
+        {"mark": "cross", "text": "GPT-5.6 Sol ຍັງ limited preview (ບາງອົງກອນ)"},
+        {"mark": "cross", "text": "Fable 5 ຄ່າ API ແພງກວ່າ ແລະ ແພ້ Sol ວຽກ agent ຍາວ"}
+      ]
+    }
+  ]
+}

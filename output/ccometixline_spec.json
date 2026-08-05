@@ -1,0 +1,51 @@
+{
+ "size": "portrait",
+ "prefix": "arnfar-ccline",
+ "category": "ຂ່າວ Dev Tools",
+ "footer_left": "github.com/Haleclipse/CCometixLine",
+ "footer_right": "Arnfar",
+ "cards": [
+ {
+ "kind": "feature",
+ "eyebrow": "CLAUDE CODE · STATUSLINE",
+ "headline": ["CCometixLine"],
+ "accent": "statusline ດ້ວຍ Rust",
+ "subhead": "Git · Model · Context % ໃນແຖບດຽວ — native binary",
+ "mockup": {"type": "dashboard", "title": "ccline — statusline",
+ "tiles": [
+ {"value": "Sonnet 4", "label": "model"},
+ {"value": "main ✓", "label": "git"},
+ {"value": "42%", "label": "context"}
+ ]},
+ "badges": ["Rust 96%", "MIT", "★ 3.1k"],
+ "features": [
+ {"icon": "bolt", "text": "Native binary — render ໄວ, ກິນ resource ໜ້ອຍ"},
+ {"icon": "code", "text": "Git: branch · ✓/●/⚠ · ↑n/↓n"},
+ {"icon": "chart", "text": "Context window % ຈາກ transcript"},
+ {"icon": "layers", "text": "TUI + TOML config · 5 themes"}
+ ],
+ "hashtags": "#arnfar #ClaudeCode #Rust #DevTools"
+ },
+ {
+ "kind": "points",
+ "title": "ຕິດຕັ້ງ & ຕັ້ງຄ່າ",
+ "items": [
+ {"mark": "num", "text": "npm install -g @cometix/ccline"},
+ {"mark": "num", "text": "settings.json → statusLine: command ~/.claude/ccline/ccline"},
+ {"mark": "num", "text": "ccline -c → TUI ຕັ້ງຄ່າ preview ສົດ"},
+ {"mark": "num", "text": "ccline --init → ~/.claude/ccline/config.toml"},
+ {"mark": "dot", "text": "ccline --theme nord (cometix·minimal·gruvbox·nord·powerline-dark)"}
+ ]
+ },
+ {
+ "kind": "points",
+ "title": "ຂໍ້ດີ & ຕ້ອງລະວັງ",
+ "items": [
+ {"mark": "check", "text": "models.toml: ກຳນົດ context_limit ເອງ (GLM · Kimi)"},
+ {"mark": "check", "text": "Utility ປິດ 'Context low' + verbose (auto backup)"},
+ {"mark": "check", "text": "Cross-platform: Windows · macOS · Linux (static)"},
+ {"mark": "cross", "text": "ຕ້ອງມີ Nerd Font · --patch cli.js ມີຄວາມສ່ຽງເມື່ອ CC ອັບເດດ"}
+ ]
+ }
+ ]
+}

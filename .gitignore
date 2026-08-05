@@ -1,0 +1,27 @@
+# === Secrets — never commit ===
+.env
+*.env
+!*.env.example
+tools/.env
+
+# === macOS junk ===
+.DS_Store
+**/.DS_Store
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# === Large font source/export files (exceed GitHub's 100MB limit) ===
+# Keep only the .ttf files needed by the rendering pipeline.
+font/*.svg
+font/*.birdfont
+font/*.eot
+
+# === Temp / scratch ===
+*.tmp
+*.log

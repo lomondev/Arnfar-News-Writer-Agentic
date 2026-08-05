@@ -1,0 +1,50 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-jadepuffer",
+  "category": "⚠️ ຂ່າວໄຊເບີ",
+  "footer_tags": "#arnfar   #ArnfarERP   #arnfar.com",
+  "motif": "shield",
+  "tags": ["Ransomware", "AIThreat", "CyberSecurity"],
+  "cards": [
+    {
+      "kind": "hero",
+      "eyebrow": "⚠️ CYBER ALERT · 2026",
+      "headline": ["JadePuffer", "AI ທີ່ແຮັກເອງໄດ້"],
+      "accent": "ransomware ໂຕທຳອິດ ທີ່ AI ຄຸມທັງໝົດ",
+      "subhead": "ບໍ່ມີມະນຸດຄຸມ — AI ໂຈມຕີຕັ້ງແຕ່ຕົ້ນຈົນຈົບ",
+      "chips": ["ຄົ້ນພົບ 04/07/2026", "ໂດຍ Sysdig"],
+      "date": "☠️ ຍຸກ Agentic Threat Actor",
+      "date_sub": "ນັກແຮັກທີ່ຂັບເຄື່ອນດ້ວຍ AI"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຕ່ອງໂສ້ການໂຈມຕີ",
+      "title": "AI ລົງມືເອງແນວໃດ",
+      "items": [
+        {"mark": "cross", "text": "ຈຸດເຂົ້າ: ຊ່ອງໂຫວ່ CVE-2025-3248 ໃນ Langflow (ເຄື່ອງທີ່ບໍ່ໄດ້ອັບເດດ)"},
+        {"mark": "cross", "text": "ຍິງ payload 600+ ຄັ້ງ · ລັກ credential · ຍ້າຍເຄື່ອງ · ຍົກສິດ"},
+        {"mark": "cross", "text": "ຝັງໂຕດ້ວຍ cron ສົ່ງສັນຍານກັບແຮັກເກີທຸກ 30 ນາທີ"},
+        {"mark": "cross", "text": "ເຂົ້າລະຫັດ config 1,342 ລາຍການ ໃນ Nacos ແລ້ວລຶບຕົ້ນສະບັບ"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "31 ວິນາທີ",
+      "label": "ຈາກ login ລົ້ມເຫຼວ ໄປຫາທາງແກ້ ທີ່ໃຊ້ໄດ້",
+      "note": "AI ປັບໂຕເອງແບບ real-time ໄວກວ່າຄົນ",
+      "badges": ["ໂຈມຕີ 24 ຊົ່ວໂມງ"],
+      "chips": ["600+ payloads", "1,342 configs ຖືກລັອກ"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ອັນຕະລາຍ ແລະ ວິທີປ້ອງກັນ",
+      "title": "ສິ່ງທີ່ຕ້ອງລະວັງ ແລະ ວິທີກັນ",
+      "items": [
+        {"mark": "cross", "text": "ຫຼຸດກຳແພງທັກສະ — ຄົນບໍ່ເກັ່ງ ກໍສັ່ງ AI ໂຈມຕີໄດ້"},
+        {"mark": "cross", "text": "ຈ່າຍຄ່າໄຖ່ກໍກູ້ຄືນບໍ່ໄດ້ — key ຖືກສ້າງສຸ່ມ ແລະ ບໍ່ໄດ້ເກັບ"},
+        {"mark": "check", "text": "ອັບເດດ/patch ທຸກລະບົບທີ່ເປີດສູ່ອິນເຕີເນັດ ໂດຍດ່ວນ"},
+        {"mark": "check", "text": "ຈຳກັດສິດ · ໝູນ credential · backup offline · ຕັ້ງ EDR"}
+      ]
+    }
+  ]
+}

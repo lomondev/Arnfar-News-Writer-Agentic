@@ -1,0 +1,60 @@
+{
+ "size": "portrait",
+ "prefix": "arnfar-aisecscan",
+ "tags": ["AISecurity", "DevSecOps", "Coding"],
+ "footer_left": "anthropic.com",
+ "footer_right": "Arnfar",
+ "motif": "shield",
+ "cards": [
+ {
+ "kind": "feature",
+ "eyebrow": "AI · CODE SECURITY",
+ "headline": ["AI Security Scan"],
+ "accent": "ໃຫ້ AI ກວດຫາຊ່ອງໂຫວ່",
+ "subhead": "scan source code ດ້ວຍ LLM — ບອກ + ແນະນຳວິທີແກ້",
+ "mockup": {"type": "dashboard", "title": "security-review — findings",
+ "tiles": [
+ {"value": "92%", "label": "AI code w/ vuln"},
+ {"value": "OWASP", "label": "Top 10"},
+ {"value": "every PR", "label": "auto-scan"}
+ ]},
+ "badges": ["SQLi", "XSS", "Secrets"],
+ "features": [
+ {"icon": "shield", "text": "ເຂົ້າໃຈ context (semantic) — ຈັບເລິກກວ່າ rule"},
+ {"icon": "code", "text": "diff-aware — scan ສະເພາະທີ່ປ່ຽນໃນ PR"},
+ {"icon": "check", "text": "comment inline + ແນະນຳວິທີແກ້"},
+ {"icon": "layers", "text": "ໃສ່ໃນ IDE · CI/CD ໄດ້ເລີຍ"}
+ ]
+ },
+ {
+ "kind": "stat",
+ "value": "92%",
+ "label": "ຂອງ codebase ທີ່ AI ສ້າງ ມີຊ່ອງໂຫວ່ critical",
+ "note": "ລາຍງານ 2026 · ~45% ມີບັນຫາລະດັບ OWASP Top 10",
+ "badges": ["AI-generated code"],
+ "chips": ["SQLi", "XSS", "authz", "dependencies"]
+ },
+ {
+ "kind": "stack",
+ "eyebrow": "ໃຊ້ເຄື່ອງມືຫຍັງ?",
+ "title": "AI Security Scanners",
+ "tools": [
+ {"icon": "shield", "name": "Claude Code /security-review", "role": "scan ໃນ terminal + GitHub Action ທຸກ PR"},
+ {"icon": "bolt", "name": "Snyk", "role": "commercial · dev-experience ດີ"},
+ {"icon": "code", "name": "Semgrep", "role": "ປັບ rule ເອງໄດ້ · open-source"},
+ {"icon": "globe", "name": "CodeQL · Aikido", "role": "query engine · all-in-one scanner"}
+ ]
+ },
+ {
+ "kind": "points",
+ "eyebrow": "ວິທີໃຊ້ & ຂໍ້ຄວນລະວັງ",
+ "title": "ເລີ່ມຕົ້ນແນວໃດ",
+ "items": [
+ {"mark": "num", "text": "/security-review ໃນ Claude Code ກ່ອນ commit"},
+ {"mark": "num", "text": "ຕັ້ງ GitHub Action ໃຫ້ scan ທຸກ PR ອັດຕະໂນມັດ"},
+ {"mark": "check", "text": "Anthropic ຈັບ RCE (DNS rebinding) ໄດ້ກ່ອນ merge"},
+ {"mark": "cross", "text": "ບໍ່ຈັບໄດ້ 100% · ມີ false positive · ບໍ່ແທນ human review"}
+ ]
+ }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-sell-steps",
+  "category": "ຄວາມຮູ້ບັນຊີ",
+  "tags": ["Accounting", "VAT", "ERP"],
+  "motif": "chart",
+  "cards": [
+    {
+      "kind": "hero",
+      "eyebrow": "ARNFAR ERP · ບັນຊີ",
+      "headline": ["ບັນທຶກ ການຂາຍໂຄງການ", "5 ຂັ້ນຕອນ"],
+      "accent": "Dr ລູກຄ້າ = Cr ລາຍຮັບ + VAT",
+      "subhead": "ວິທີລົງບັນຊີ ຂາຍໂຄງການ + VAT 10% ແບບເຂົ້າໃຈງ່າຍ",
+      "chips": ["1211/1212/1213", "70xxx", "432"],
+      "date": "Arnfar · ຄວາມຮູ້ບັນຊີ"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຂັ້ນຕອນຫຼັກ",
+      "title": "5 ຂັ້ນຕອນ ບັນທຶກ",
+      "items": [
+        {"mark": "num", "text": "ອອກໃບກຳກັບພາສີ — ຄິດ ລາຍຮັບ + VAT 10% = ຍອດລວມ"},
+        {"mark": "num", "text": "Dr 1211 ລູກຄ້າ = ຍອດລວມ (ລວມ VAT)"},
+        {"mark": "num", "text": "Cr 70xxx ລາຍຮັບ = ຍອດບໍ່ລວມ VAT"},
+        {"mark": "num", "text": "Cr 432 VAT ຂາອອກ = VAT 10%"},
+        {"mark": "num", "text": "ກວດສອບ Dr ລວມ = Cr ລວມ (ຕ້ອງດຸນກັນ)"}
+      ]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຕົວຢ່າງ · ຂາຍ 10 ລ້ານກີບ + VAT 10%",
+      "title": "ບັນທຶກ Dr / Cr",
+      "items": [
+        {"mark": "dot", "text": "Dr 1211 ລູກຄ້າ — 11,000,000 ກີບ (ຍອດລວມ)"},
+        {"mark": "dot", "text": "Cr 70xxx ລາຍຮັບ — 10,000,000 ກີບ (ບໍ່ລວມ VAT)"},
+        {"mark": "dot", "text": "Cr 432 VAT ຂາອອກ — 1,000,000 ກີບ"},
+        {"mark": "check", "text": "Dr ລວມ = Cr ລວມ = 11,000,000 ກີບ"}
+      ]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຂັ້ນຕອນ 6 · ເມື່ອລູກຄ້າຊຳລະ",
+      "title": "ຮັບຊຳລະເງິນ",
+      "items": [
+        {"mark": "dot", "text": "Dr ເງິນສົດ/ທະນາຄານ (BCEL, LDB, JDB) — 11,000,000 ກີບ"},
+        {"mark": "dot", "text": "Cr 1211 ລູກຄ້າ — 11,000,000 ກີບ"},
+        {"mark": "check", "text": "ປິດຍອດໜີ້ລູກຄ້າ — ຮັບເງິນຄົບ"},
+        {"mark": "cross", "text": "ຖ້າມີເງິນມັດຈຳກ່ອນ: Cr ບັນຊີ ເງິນຮັບລ່ວງໜ້າ ກ່ອນ ຈຶ່ງໂອນເປັນລາຍຮັບ"}
+      ]
+    }
+  ]
+}

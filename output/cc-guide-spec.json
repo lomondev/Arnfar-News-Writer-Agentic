@@ -1,0 +1,59 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-cc-guide",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "footer_tags": "#arnfar   #ArnfarERP   #arnfar.com",
+  "motif": "gear",
+  "tags": ["Claude", "ChatGPT", "AIGuide"],
+  "cards": [
+    {
+      "kind": "feature",
+      "eyebrow": "BUYER'S GUIDE 2026",
+      "headline": ["ຄູ່ມືເລືອກ AI"],
+      "accent": "ຈ່າຍ $20 ໃຫ້ໂຕໃດດີ?",
+      "subhead": "ເລືອກຕາມປະເພດການໃຊ້ງານ",
+      "mockup": {
+        "type": "leaderboard",
+        "label": "ເລືອກຕາມວຽກ",
+        "rows": [
+          {"icon": "code", "name": "ຂຽນໂຄດ / codebase", "value": "Claude", "highlight": true},
+          {"icon": "spark", "name": "ວຽກ agent / ຄົ້ນເວັບ", "value": "ChatGPT"},
+          {"icon": "doc", "name": "ຂຽນ / ເອກະສານຍາວ", "value": "Claude"},
+          {"icon": "video", "name": "ຮູບພາບ / multimodal", "value": "ChatGPT"}
+        ]
+      },
+      "badges": ["$20/ເດືອນ ເທົ່າກັນ", "ລອງຟຣີກ່ອນ"],
+      "hashtags": "#arnfar  #Claude  #ChatGPT  #AIGuide"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ເລືອກຕາມການໃຊ້ງານ",
+      "title": "ໂຕໃດເໝາະກັບໃຜ",
+      "items": [
+        {"mark": "check", "text": "ຂຽນໂຄດ + codebase ໃຫຍ່ → Claude (Fable 5, ໄດ້ Claude Code)"},
+        {"mark": "check", "text": "agent ຍາວ + ຄົ້ນເວັບ → ChatGPT (GPT-5.6 Sol)"},
+        {"mark": "check", "text": "ຂຽນບົດຄວາມ / marketing → Claude (ໂທນທຳມະຊາດ)"},
+        {"mark": "check", "text": "ຮູບພາບ + ເຊື່ອມ Slack/Notion/M365 → ChatGPT"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "$20 USD",
+      "label": "ຕໍ່ເດືອນ — ລາຄາເທົ່າກັນ ທັງ Claude Pro ແລະ ChatGPT Plus",
+      "note": "Claude Max $100–200 · ບໍ່ຈຳເປັນສຳລັບຄົນທົ່ວໄປ",
+      "badges": ["ມີແພັກຟຣີ"],
+      "chips": ["Claude Pro", "ChatGPT Plus"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຂໍ້ດີ / ຂໍ້ເສຍ",
+      "title": "ກ່ອນຕັດສິນໃຈ",
+      "items": [
+        {"mark": "check", "text": "ບໍ່ຈຳເປັນເລືອກໂຕດຽວ — ໃຊ້ 2 ໂຕຄວບຄູ່ຕາມວຽກໄດ້"},
+        {"mark": "check", "text": "ລອງແພັກຟຣີທັງສອງກ່ອນຈ່າຍເງິນ"},
+        {"mark": "cross", "text": "Claude ບໍ່ມີສ້າງຮູບ · ລະບົບແອັບແຄບກວ່າ"},
+        {"mark": "cross", "text": "ພາສາລາວຍັງບໍ່ແມ່ນຈຸດແຂງ — ຢ່າເຊື່ອ 100%"}
+      ]
+    }
+  ]
+}

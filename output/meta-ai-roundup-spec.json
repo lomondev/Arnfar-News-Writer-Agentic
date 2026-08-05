@@ -1,0 +1,57 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-meta-ai-2026-07",
+  "style": "ai",
+  "motif": "ai",
+  "tags": ["MetaAI", "Facebook", "AI"],
+  "cards": [
+    {
+      "kind": "feature",
+      "eyebrow": "META SUPERINTELLIGENCE LABS",
+      "headline": ["Muse Image"],
+      "accent": "ສ້າງຮູບດ້ວຍ AI ໄດ້ຟຣີ ໃນທຸກແອັບ Meta",
+      "subhead": "ວັນທີ 7 ກໍລະກົດ 2026 · ປ່ອຍ AI ຊຸດໃຫຍ່ພາຍໃນເດືອນດຽວ",
+      "mockup": {
+        "type": "browser",
+        "url": "meta.ai"
+      },
+      "badges": ["ຟຣີ", "Muse Video"],
+      "features": [
+        {"icon": "spark", "text": "ພິມຄຳສັ່ງ ສ້າງຮູບໃໝ່"},
+        {"icon": "layers", "text": "ແກ້ໄຂຮູບເກົ່າ ລຶບຄົນບັງ"}
+      ],
+      "hashtags": "#arnfar  #MetaAI  #MuseImage"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "JUNE – JULY 2026",
+      "title": "Meta ປ່ອຍຫຍັງອອກມາແດ່?",
+      "items": [
+        {"mark": "num", "text": "Muse Image — ໂມເດລສ້າງຮູບຕົວທຳອິດ ໃຊ້ຟຣີໃນ Meta AI, Instagram Stories ແລະ WhatsApp"},
+        {"mark": "num", "text": "AI Mode ໃນ Facebook — ຖາມດ້ວຍພາສາທຳມະດາ ແລ້ວ AI ສະຫຼຸບຄຳຕອບຈາກໂພສສາທາລະນະ, Groups ແລະ Reels"},
+        {"mark": "num", "text": "Muse Spark 1.1 — API ສຳລັບວຽກ agentic ແລະ ຂຽນໂປຣແກຣມ ຮອງຮັບ context 1 ລ້ານ token"},
+        {"mark": "num", "text": "ຊິບ Iris — ເລີ່ມຜະລິດເດືອນກັນຍາ 2026 ຮ່ວມກັບ Broadcom ແລະ TSMC"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "$1.25",
+      "label": "ຕໍ່ 1 ລ້ານ token ຂາເຂົ້າ (Muse Spark 1.1)",
+      "note": "Zuckerberg ລະບຸວ່າ ຖືກກວ່າ Anthropic ແລະ OpenAI ປະມານ 4 ເທົ່າ",
+      "badges": ["ຂາອອກ $4.25 / 1M", "ເຄຣດິດຟຣີ $20"],
+      "chips": ["OpenAI $5 / 1M", "Anthropic $5 / 1M", "context 1M token"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "PROS & CONS",
+      "title": "ໄດ້ຫຍັງ ແລະ ຕ້ອງລະວັງຫຍັງ",
+      "items": [
+        {"mark": "check", "text": "ສ້າງຮູບສິນຄ້າ ແລະ ຮູບໂຄສະນາໄດ້ຟຣີ ໃນແອັບທີ່ໃຊ້ຢູ່ແລ້ວ"},
+        {"mark": "check", "text": "ນັກພັດທະນາລາວປະຢັດຄ່າ AI ໄດ້ຫຼາຍ ຍ້ອນລາຄາຖືກກວ່າຄູ່ແຂ່ງ"},
+        {"mark": "cross", "text": "ບັນຊີ IG ສາທາລະນະ: ຄົນອື່ນເອົາຮູບທ່ານໄປສ້າງເປັນຮູບ AI ໄດ້ ໂດຍບໍ່ແຈ້ງເຕືອນ"},
+        {"mark": "cross", "text": "ຄຳຕອບຂອງ AI Mode ດຶງຈາກໂພສຄົນທົ່ວໄປ ຈຶ່ງອາດຜິດ ຫຼື ລ້າສະໄໝ"},
+        {"mark": "cross", "text": "ໃຊ້ຟຣີມີຂີດຈຳກັດ ເກີນແລ້ວຕ້ອງສະໝັກແພັກເກັດເສຍເງິນ"}
+      ]
+    }
+  ]
+}

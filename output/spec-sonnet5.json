@@ -1,0 +1,57 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-sonnet5",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "tags": ["AImodel", "DevTools", "Coding"],
+  "motif": "ai",
+  "cards": [
+    {
+      "kind": "showcase",
+      "chart": {
+        "title": "SWE-bench Verified (%)",
+        "legend": ["Sonnet 5", "Sonnet 4.6", "Opus 4.8"],
+        "bars": [
+          {"label": "Claude Opus 4.8", "value": 79.4, "color": "light"},
+          {"label": "Claude Sonnet 5", "value": 72.7, "highlight": true},
+          {"label": "Claude Sonnet 4.6", "value": 62.3, "muted": true}
+        ]
+      },
+      "bodies": ["Sol", "Terra", "Luna"],
+      "body_subs": ["Opus 4.8", "Sonnet 5", "Sonnet 4.6"],
+      "badges": ["$2 / 1M input", "Free + Pro default"],
+      "date": "ວັນທີ 30 ມິຖຸນາ 2026 · Anthropic · Release",
+      "headline": ["Claude Sonnet 5", "ແຮງເກືອບ flagship"],
+      "subhead": ["AI Agent ຂຽນ code ເກັ່ງຂຶ້ນ", "ແຕ່ລາຄາຖືກກວ່າເຄິ່ງໜຶ່ງ"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "WHAT CHANGED",
+      "title": "ມີຫຍັງໃໝ່?",
+      "items": [
+        {"mark": "check", "text": "SWE-bench Verified 72.7% (ຈາກ 62.3% ໃນ Sonnet 4.6)"},
+        {"mark": "check", "text": "Terminal-bench 76.1% — ໂດດຂຶ້ນ +20.7 ຈຸດ"},
+        {"mark": "check", "text": "ກາຍເປັນ default ໃນແພັກ Free ແລະ Pro"},
+        {"mark": "dot", "text": "ລາຄາແນະນຳ $2 / $10 ຕໍ່ 1 ລ້ານ token ຮອດ 31 ສິງຫາ 2026"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "$2 / 1M",
+      "label": "ລາຄາ input token (introductory)",
+      "note": "ຖືກກວ່າ Opus 4.8, GPT-5.5 ແລະ Gemini 3.1 Pro",
+      "badges": ["ຫຼຸດ >50%", "ຮອດ 31 ສ.ຫ. 2026"],
+      "chips": ["output $10 / 1M", "default Free + Pro"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "PROS & CONS",
+      "title": "ຂໍ້ດີ ແລະ ສິ່ງທີ່ຕ້ອງລະວັງ",
+      "items": [
+        {"mark": "check", "text": "ຕົ້ນທຶນ run AI Agent ຖືກລົງ — ເໝາະທຸລະກິດລາວ"},
+        {"mark": "check", "text": "ຄົນລາວທົ່ວໄປໃຊ້ຟຣີໄດ້ຜ່ານແພັກ Free"},
+        {"mark": "cross", "text": "ຍັງບໍ່ແຮງເທົ່າ Opus 4.8 ໃນວຽກຍາກທີ່ສຸດ"},
+        {"mark": "cross", "text": "ລາຄາ $2 ເປັນໂປຣໂມຊັນ — ຈະຂຶ້ນຫຼັງ 31 ສ.ຫ."}
+      ]
+    }
+  ]
+}

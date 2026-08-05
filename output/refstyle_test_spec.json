@@ -1,0 +1,23 @@
+{
+ "size": "portrait",
+ "prefix": "arnfar-refstyle",
+ "tags": ["LLM", "Pricing", "AIinfra"],
+ "cards": [
+ {
+ "kind": "feature",
+ "headline": ["Oxlo.ai"],
+ "accent": "flat-pricing AI",
+ "subhead": "ເອີ້ນ AI ແບບຈ່າຍຄົງທີ່ — ບໍ່ຄິດຕໍ່ token",
+ "url": "oxlo.ai",
+ "mockup": {"type": "leaderboard", "label": "MONTHLY COST (ຕົວຢ່າງ)",
+ "rows": [
+ {"icon": "layers", "name": "Together AI", "value": "$130"},
+ {"icon": "spark", "name": "Hugging Face", "value": "$37"},
+ {"icon": "bolt", "name": "Fireworks AI", "value": "$32.90"},
+ {"icon": "globe", "name": "OpenRouter", "value": "$32.90"},
+ {"icon": "chip", "name": "Groq", "value": "$24.90"},
+ {"icon": "check", "name": "Oxlo.ai", "value": "$80", "highlight": true}
+ ]}
+ }
+ ]
+}

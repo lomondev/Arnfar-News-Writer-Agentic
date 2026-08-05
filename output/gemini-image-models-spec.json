@@ -1,0 +1,107 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-nano-banana",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "footer_tags": "#arnfar   #Gemini   #NanoBanana   #AIImage",
+  "cards": [
+    {
+      "kind": "feature",
+      "eyebrow": "GOOGLE GEMINI IMAGE MODELS",
+      "headline": [
+        "Gemini 3.1 & 3 GA"
+      ],
+      "accent": "Google Nano Banana",
+      "subhead": "ໂມເດລສ້າງຮູບຮຸ່ນເຕັມ ພ້ອມໃຊ້ງານຈິງແລ້ວ!",
+      "mockup": {
+        "type": "video",
+        "title": "video_to_image_demo.mp4",
+        "tag": "Flash 3.1",
+        "time": "0:04 / 0:12"
+      },
+      "badges": [
+        "GA Version",
+        "Video-to-Image"
+      ],
+      "features": [
+        {
+          "icon": "play",
+          "text": "ສ້າງຮູບຈາກວິດີໂອ / YouTube"
+        },
+        {
+          "icon": "bolt",
+          "text": "ໄວຂຶ້ນ ແລະ ຕົ້ນທຶນຕ່ຳລົງ"
+        },
+        {
+          "icon": "layers",
+          "text": "ຮອງຮັບຮູບລະອຽດສູງເຖິງ 4K"
+        },
+        {
+          "icon": "globe",
+          "text": "ໃຊ້ງານຜ່ານ API / Studio"
+        }
+      ]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "🔍 ມັນເກີດຫຍັງຂຶ້ນ?",
+      "title": "ລາຍລະອຽດແຕ່ລະໂມເດລ",
+      "items": [
+        {
+          "mark": "dot",
+          "text": "Gemini 3.1 Flash Image (Nano Banana 2): ເນັ້ນຄວາມໄວສູງ ແລະ ຕົ້ນທຶນປະຢັດ"
+        },
+        {
+          "mark": "dot",
+          "text": "Gemini 3 Pro Image (Nano Banana Pro): ເນັ້ນຄຸນນະພາບສູງ ຮອງຮັບຄວາມລະອຽດ 1K-4K"
+        },
+        {
+          "mark": "check",
+          "text": "ຟີເຈີ Video-to-Image ສ້າງຮູບ/Thumbnail ຈາກວິດີໂອໄດ້ງ່າຍໆ (ສະເພາະ Flash)"
+        },
+        {
+          "mark": "cross",
+          "text": "ໂມເດລ preview ເກົ່າປິດບໍລິການແລ້ວ 25 ມິຖຸນາ 2026 — ຕ້ອງຍ້າຍດ່ວນ"
+        }
+      ]
+    },
+    {
+      "kind": "stat",
+      "category": "ລາຄາເລີ່ມຕົ້ນ",
+      "value": "$0.067",
+      "label": "ຕໍ່ຮູບ (Flash Image 1K)",
+      "note": "ຄິດໄລ່ຈາກລາຄາ API $0.50 / 1M input tokens",
+      "badges": [
+        "Google AI Studio",
+        "Gemini API"
+      ],
+      "chips": [
+        "Flash: ~$0.067/ຮູບ",
+        "Pro: ~$0.134/ຮູບ (1K-2K)",
+        "Pro 4K: ~$0.240/ຮູບ"
+      ]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ANALYSIS",
+      "title": "ຂໍ້ດີ ແລະ ຂໍ້ເສຍ / ສິ່ງທີ່ຕ້ອງລະວັງ",
+      "items": [
+        {
+          "mark": "check",
+          "text": "ຂໍ້ດີ: ຕົ້ນທຶນຕໍ່ຮູບຖືກຫຼາຍ ຫຼຸດຄ່າໃຊ້ຈ່າຍໂຄສະນາໄດ້ຫຼາຍເທົ່າ"
+        },
+        {
+          "mark": "check",
+          "text": "ຂໍ້ດີ: ໂມເດລ GA ມີຄວາມໝັ້ນຄົງສູງ ເໝາະສົມສຳລັບ Production"
+        },
+        {
+          "mark": "cross",
+          "text": "ລະວັງ: ບໍ່ມີ free tier ສຳລັບໂມເດລສ້າງຮູບເຫຼົ່ານີ້ — ຕ້ອງໃຊ້ບັນຊີເສຍເງິນ"
+        },
+        {
+          "mark": "cross",
+          "text": "ລະວັງ: ລາຄາຄິດໄລ່ຕາມ token ຫາກສ້າງຮູບ 4K ຈະແພງກວ່າຫຼາຍ"
+        }
+      ]
+    }
+  ]
+}

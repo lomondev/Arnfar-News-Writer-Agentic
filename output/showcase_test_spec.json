@@ -1,0 +1,29 @@
+{
+ "size": "portrait",
+ "prefix": "arnfar-showcase-test",
+ "category": "ຂ່າວເຕັກໂນໂລຊີ AI",
+ "cards": [
+ {
+ "kind": "showcase",
+ "chart": {
+ "title": "TerminalBench 2.1",
+ "legend": ["GPT-5.6", "Mythos5", "AInews"],
+ "bars": [
+ {"label": "GPT-5.6 Sol Ultra", "value": 91.9, "highlight": true},
+ {"label": "GPT-5.6 Sol", "value": 88.8, "color": "light"},
+ {"label": "Claude Mythos 5", "value": 88.0, "muted": true},
+ {"label": "GPT-5.6 Terra", "value": 80.2, "color": "light"}
+ ]
+ },
+ "bodies": ["Sol", "Terra", "Luna"],
+ "body_subs": ["$5 / 1M", "$2.5 / 1M", "$1 / 1M"],
+ "badges": ["Limited Preview", "API + Codex"],
+ "date": "ວັນທີ 26 ມິຖຸນາ 2026 · Product · Release",
+ "headline": ["GPT-5.6 ແຊງ", "Claude Mythos 5"],
+ "subhead": [
+ "Sol ແຕະ SOTA 91.9% ບຽດຊະນະ Mythos 5",
+ "ແຕ່ເປີດໃຫ້ໃຊ້ແຄ່ partner ທີ່ລັດອະນຸມັດ"
+ ]
+ }
+ ]
+}

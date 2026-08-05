@@ -1,0 +1,62 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-multica",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "style": "ai",
+  "motif": "robot",
+  "tags": ["AIagent", "DevTools", "OpenSource"],
+  "cards": [
+    {
+      "kind": "feature",
+      "eyebrow": "OPEN-SOURCE MANAGED AGENTS",
+      "headline": ["Multica"],
+      "accent": "ຈັດການ AI Agent ໃຫ້ເປັນເພື່ອນຮ່ວມທີມ",
+      "subhead": "ມອບໝາຍວຽກໃຫ້ AI agent ໄດ້ຄືກັບພະນັກງານຄົນໜຶ່ງ",
+      "url": "multica.ai",
+      "mockup": {"type": "leaderboard", "label": "ຮອງຮັບ Coding Agent",
+        "rows": [
+          {"icon": "spark", "name": "Claude Code", "value": "runtime", "highlight": true},
+          {"icon": "code", "name": "Codex", "value": "runtime"},
+          {"icon": "globe", "name": "Gemini CLI", "value": "runtime"},
+          {"icon": "layers", "name": "Cursor Agent", "value": "runtime"}
+        ]},
+      "badges": ["Open Source", "Self-host"],
+      "features": [
+        {"icon": "check", "text": "ມອບໝາຍ issue ໃຫ້ agent"},
+        {"icon": "bolt", "text": "ເຮັດວຽກເອງ real-time"},
+        {"icon": "layers", "text": "Skills ໃຊ້ຊ້ຳໄດ້"},
+        {"icon": "lock", "text": "code ຢູ່ໃນເຄື່ອງທ່ານ"}
+      ]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "MULTICA ເຮັດຫຍັງໄດ້",
+      "title": "ຄຸ້ມຄອງທີມ AI ຄືທີມມະນຸດ",
+      "items": [
+        {"mark": "check", "text": "ມອບໝາຍວຽກໃຫ້ agent — ມັນຮັບວຽກ, ຂຽນ code, ລາຍງານບັນຫາ ແລະ ອັບເດດສະຖານະເອງ"},
+        {"mark": "check", "text": "ຈັດການວົງຈອນວຽກຄົບ: ຈັດຄິວ → ຮັບ → ເລີ່ມ → ສຳເລັດ, ຕິດຕາມ real-time"},
+        {"mark": "check", "text": "ໜ້າຈໍດຽວຄຸ້ມຄອງ runtime ທັງໝົດ, auto-detect ເຄື່ອງມືເຖິງ 14 ຢ່າງ"},
+        {"mark": "dot", "text": "ສ້າງດ້ວຍ Next.js 16 + Go + PostgreSQL, self-host ດ້ວຍ Docker"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "19,000+",
+      "label": "ດາວ (Star) ໃນ GitHub",
+      "note": "Open Source ເຕັມຮູບແບບ — ກວດ code ໄດ້ທຸກແຖວ",
+      "badges": ["Open Source", "Vendor-neutral"],
+      "chips": ["Docker", "Kubernetes", "Self-host"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຄວນໃຊ້ບໍ່?",
+      "title": "ຂໍ້ດີ ແລະ ສິ່ງທີ່ຕ້ອງລະວັງ",
+      "items": [
+        {"mark": "check", "text": "Open Source ຟຣີ, self-host ເອງໄດ້ — code ຢູ່ໃນເຄື່ອງທ່ານ"},
+        {"mark": "check", "text": "ບໍ່ຜູກຂາດຜູ້ໃຫ້ບໍລິການ — ໃຊ້ AI provider ໃດກໍໄດ້"},
+        {"mark": "cross", "text": "ຍັງເປັນລຸ້ນເລີ່ມຕົ້ນ (v0.2.x) — ຟີເຈີ້ປ່ຽນແປງໄວ"},
+        {"mark": "cross", "text": "ຕ້ອງມີເຄື່ອງເອງ + ຄວາມຮູ້ Docker ແລະ ຍັງເສຍຄ່າ token AI"}
+      ]
+    }
+  ]
+}

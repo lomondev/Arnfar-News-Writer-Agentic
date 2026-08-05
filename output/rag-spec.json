@@ -1,0 +1,49 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-rag",
+  "category": "ຮູ້ຈັກ AI",
+  "tags": ["RAG", "AgenticAI", "AIDev"],
+  "motif": "ai",
+  "cards": [
+    {
+      "kind": "hero",
+      "eyebrow": "AI EXPLAINER · 2026",
+      "headline": ["RAG ໃນປີ 2026"],
+      "accent": "Retrieval-Augmented Generation",
+      "subhead": "ໃຫ້ AI ຄົ້ນຫາຂໍ້ມູນຈິງກ່ອນຕອບ — ຫຼຸດການ \"ຫຼອນ\"",
+      "chips": ["Agentic RAG", "GraphRAG", "Hybrid + Rerank"],
+      "date": "ວັນທີ 7 ກໍລະກົດ 2026"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "HOW IT WORKS",
+      "title": "RAG ເຮັດວຽກແນວໃດ?",
+      "items": [
+        {"mark": "num", "text": "ຫັ່ນເອກະສານເປັນຕ່ອນນ້ອຍ ແລ້ວປ່ຽນເປັນ vector ເກັບໃນ vector database"},
+        {"mark": "num", "text": "ເມື່ອຜູ້ໃຊ້ຖາມ ລະບົບຄົ້ນຫາຕ່ອນທີ່ກ່ຽວຂ້ອງທີ່ສຸດ"},
+        {"mark": "num", "text": "ສົ່ງຕ່ອນນັ້ນໃຫ້ AI ໃຊ້ເປັນຫຼັກຖານ ແລ້ວຕອບ ພ້ອມອ້າງອີງແຫຼ່ງ"},
+        {"mark": "dot", "text": "Agentic RAG: ໃສ່ loop ຄິດ ໃຫ້ AI ຕັດສິນເອງວ່າ ຄວນຄົ້ນຫາໃໝ່ ຫຼື ບໍ່"},
+        {"mark": "dot", "text": "GraphRAG: ເກັບເປັນ node + ເສັ້ນເຊື່ອມ ຮັກສາຄວາມສຳພັນຂ້າມເອກະສານ"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "73%",
+      "label": "ເມື່ອ RAG ຕອບຜິດ ສ່ວນຫຼາຍພັງທີ່ຂັ້ນຕອນ retrieval",
+      "note": "ບໍ່ແມ່ນຂັ້ນຕອນສ້າງຄຳຕອບ · ອີງການວິເຄາະ 2026",
+      "badges": ["Retrieval = ຄໍຂວດ"],
+      "chips": ["Hybrid + Rerank", "Chunking", "Embedding"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຂໍ້ດີ / ຂໍ້ຄວນລະວັງ",
+      "title": "ຄວນຮູ້ກ່ອນໃຊ້",
+      "items": [
+        {"mark": "check", "text": "ຫຼຸດການ \"ຫຼອນ\" ຕອບອີງຂໍ້ມູນຈິງຂອງອົງກອນ — ເໝາະ chatbot ບໍລິການ"},
+        {"mark": "check", "text": "ອັບເດດຄວາມຮູ້ໃໝ່ໄດ້ໂດຍບໍ່ຕ້ອງ train ໂມເດລຄືນ"},
+        {"mark": "cross", "text": "retrieval ຄືຄໍຂວດ — ຄົ້ນຫາຕ່ອນຜິດ AI ກໍຕອບຜິດ"},
+        {"mark": "cross", "text": "Agentic RAG ຄຸນນະພາບສູງ ແຕ່ຕົ້ນທຶນ + latency ສູງ — ຄຸ້ມສະເພາະວຽກຊັບຊ້ອນ"}
+      ]
+    }
+  ]
+}

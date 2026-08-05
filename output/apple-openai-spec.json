@@ -1,0 +1,57 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-apple-openai",
+  "style": "danger",
+  "motif": "warning",
+  "tags": ["Lawsuit", "AI", "Hardware"],
+  "cards": [
+    {
+      "kind": "feature",
+      "eyebrow": "BREAKING · JULY 10, 2026",
+      "headline": ["Apple v. OpenAI"],
+      "accent": "ຄະດີລັກຄວາມລັບການຄ້າ",
+      "subhead": "Apple ຟ້ອງ OpenAI ຕໍ່ສານລັດຖະບານກາງ ພາກເໜືອລັດຄາລິຟໍເນຍ",
+      "mockup": {
+        "type": "leaderboard",
+        "label": "ຜູ້ຖືກກ່າວຫາໃນຄຳຟ້ອງ",
+        "rows": [
+          {"icon": "lock", "name": "Tang Tan — ຫົວໜ້າຮາດແວ", "value": "24 ປີ @ Apple", "highlight": true},
+          {"icon": "doc", "name": "Chang Liu — ວິສະວະກອນ", "value": "8 ປີ @ Apple"},
+          {"icon": "layers", "name": "io — ຂອງ Jony Ive", "value": "OpenAI ຊື້ 2025"}
+        ]
+      },
+      "badges": ["Trade Secrets", "Breach of Contract"],
+      "hashtags": "#arnfar  #Apple  #OpenAI"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຂໍ້ກ່າວຫາຫຼັກ",
+      "title": "Apple ກ່າວຫາຫຍັງແດ່?",
+      "items": [
+        {"mark": "cross", "text": "ຂໍໃຫ້ຜູ້ສະໝັກວຽກນຳ \"ຊິ້ນສ່ວນຈິງ\" ຂອງ Apple ມາສະແດງໃນການສຳພາດ"},
+        {"mark": "cross", "text": "ແນະນຳພະນັກງານທີ່ຈະລາອອກ ໃຫ້ຫຼີກລ້ຽງລະບົບກວດສອບຄວາມປອດໄພ"},
+        {"mark": "cross", "text": "ບໍ່ສົ່ງຄືນຄອມພິວເຕີບໍລິສັດ ແລະ ດາວໂຫຼດເອກະສານລັບອອກໄປ"},
+        {"mark": "dot", "text": "Apple ສົ່ງໜັງສືເຕືອນເດືອນ 02 ປີ 2026 — ແຕ່ບໍ່ໄດ້ຮັບຄຳຕອບ"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "24 ປີ",
+      "label": "Tang Tan ເຮັດວຽກຢູ່ Apple ກ່ອນຍ້າຍໄປ OpenAI",
+      "note": "ອະດີດຮອງປະທານຝ່າຍອອກແບບ iPhone ແລະ Apple Watch",
+      "badges": ["ຫົວໜ້າຝ່າຍຮາດແວ OpenAI"],
+      "chips": ["ຟ້ອງວັນທີ 10/07/2026", "ສານພາກເໜືອ California"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ວິເຄາະ",
+      "title": "ໝາຍຄວາມວ່າແນວໃດ?",
+      "items": [
+        {"mark": "check", "text": "ເຕືອນໃຫ້ທຸກບໍລິສັດເຫັນຄວາມສຳຄັນຂອງການປົກປ້ອງຂໍ້ມູນລັບ"},
+        {"mark": "check", "text": "ຂະບວນການສານຈະເປີດເຜີຍຂໍ້ມູນພາຍໃນວົງການ AI ຫຼາຍຂຶ້ນ"},
+        {"mark": "cross", "text": "ຍັງເປັນພຽງຂໍ້ກ່າວຫາ — ສານຍັງບໍ່ທັນຕັດສິນ"},
+        {"mark": "cross", "text": "ຄະດີແບບນີ້ອາດໃຊ້ເວລາຫຼາຍປີ ຫຼື ຈົບດ້ວຍການປະນີປະນອມ"}
+      ]
+    }
+  ]
+}

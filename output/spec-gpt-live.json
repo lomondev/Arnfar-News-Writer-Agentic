@@ -1,0 +1,63 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-gpt-live",
+  "style": "ai",
+  "motif": "ai",
+  "tags": ["VoiceAI", "OpenAI", "GPTLive"],
+  "footer_tags": "#arnfar   #ArnfarERP   #arnfar.com",
+  "cards": [
+    {
+      "kind": "feature",
+      "eyebrow": "OPENAI ENGINEERING",
+      "headline": ["GPT-Live"],
+      "accent": "AI ທີ່ຟັງ ແລະ ເວົ້າພ້ອມກັນ",
+      "subhead": "ລະບົບສຽງລຸ້ນທີສາມເບື້ອງຫຼັງ ChatGPT Voice ສ້າງສຳເລັດໃນ 6 ເດືອນ",
+      "mockup": {"type": "video", "title": "gpt-live-demo.wav", "tag": "Full-Duplex", "time": "0:06 / 0:15"},
+      "badges": ["Full-Duplex", "Realtime"],
+      "features": [
+        {"icon": "bolt", "text": "ໂຕ້ຕອບໄວເກືອບຄືກັບຄົນແທ້"},
+        {"icon": "play", "text": "ຟັງ ແລະ ເວົ້າໃນເວລາດຽວກັນ"},
+        {"icon": "layers", "text": "ສົ່ງວຽກໃຫ້ GPT-5.5 ຢູ່ເບື້ອງຫຼັງ"},
+        {"icon": "globe", "text": "ເປີດໃຊ້ງານຈິງທົ່ວໂລກແລ້ວ"}
+      ],
+      "hashtags": "#arnfar  #VoiceAI  #GPTLive"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "WHAT'S NEW",
+      "title": "ມີຫຍັງໃໝ່ໃນ GPT-Live?",
+      "items": [
+        {"mark": "check", "text": "ໂມເດລ Full-Duplex — ຟັງ ແລະ ເວົ້າພ້ອມກັນ ບໍ່ຕ້ອງເວົ້າເທື່ອລະຝ່າຍ"},
+        {"mark": "check", "text": "ຕັດຕົວເດົາການເວົ້າຈົບ (Turn Detector) ອອກ — ບໍ່ຕັດຄຳເວົ້າ ບໍ່ຊັກຊ້າ"},
+        {"mark": "check", "text": "ຄິດເລິກໄດ້ໂດຍບໍ່ຢຸດສົນທະນາ — ສົ່ງວຽກໃຫ້ GPT-5.5 ເຮັດຢູ່ເບື້ອງຫຼັງ"},
+        {"mark": "check", "text": "ຮອງຮັບການສັ່ງງານຄອມພິວເຕີດ້ວຍສຽງ ໃນແອັບ ChatGPT Desktop"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "1",
+      "label": "ຮອບການເຊື່ອມຕໍ່ເພື່ອເລີ່ມສົນທະນາ (ຈາກເດີມ 6 ຮອບ)",
+      "note": "ດ້ວຍໂປຣໂຕຄອລ WARP — ເລີ່ມການສົນທະນາດ້ວຍແພັກເກັດດຽວ"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "DEV LESSONS",
+      "title": "ບົດຮຽນສຳລັບນັກພັດທະນາ",
+      "items": [
+        {"mark": "dot", "text": "ຂຽນລະບົບສຽງໃໝ່ດ້ວຍພາສາ Go ແທນ Python — p95 ໃໝ່ ໄວເທົ່າ p50 ເກົ່າ"},
+        {"mark": "dot", "text": "ໃຊ້ WebRTC + WARP ຫຼຸດການເຊື່ອມຕໍ່ 6 ຮອບ ເຫຼືອ 1 ຮອບ"},
+        {"mark": "dot", "text": "ແຍກເສັ້ນທາງສຽງ ອອກຈາກ Logic ອື່ນ — ສຽງບໍ່ສະດຸດ ເຖິງແມ່ນ Tool ຊ້າ"},
+        {"mark": "dot", "text": "ທົດສອບແບບງຽບໆໃນ Production ກ່ອນເປີດຕົວຈິງ"}
+      ]
+    },
+    {
+      "kind": "code",
+      "headline": ["ຈາກ Python ຫາ Go", "ເພື່ອຄວາມໄວ Realtime"],
+      "accent": "p95 ໃໝ່ = p50 ເກົ່າ",
+      "subhead": "ບົດຮຽນວິສະວະກຳຈາກທີມ GPT-Live",
+      "file": "media_loop.go",
+      "badge": "Realtime",
+      "hashtags": "#arnfar  #GoLang  #VoiceAI"
+    }
+  ]
+}

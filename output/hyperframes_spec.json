@@ -1,0 +1,40 @@
+{
+ "size": "portrait",
+ "prefix": "arnfar-hyperframes",
+ "category": "ຂ່າວ AI & Dev Tools",
+ "footer_left": "hyperframes.heygen.com",
+ "footer_right": "Arnfar",
+ "cards": [
+ {
+ "kind": "code",
+ "eyebrow": "HEYGEN · OPEN SOURCE",
+ "headline": ["HyperFrames", "ຂຽນ HTML = ໄດ້ວິດີໂອ"],
+ "accent": "Apache 2.0",
+ "subhead": "ໃຫ້ AI agent ຕັດຕໍ່ວິດີໂອດ້ວຍໂຄ້ດ",
+ "file": "promo.html",
+ "badge": "AI Agent",
+ "hashtags": "#arnfar #HyperFrames #AIVideo #LaoDev"
+ },
+ {
+ "kind": "points",
+ "title": "ໃຊ້ງານແນວໃດ?",
+ "items": [
+ {"mark": "num", "text": "ຕິດຕັ້ງ: npx skills add heygen-com/hyperframes"},
+ {"mark": "num", "text": "ໃຫ້ AI ຂຽນ composition (HTML) ຈາກ script/ຂໍ້ມູນ"},
+ {"mark": "num", "text": "ປັບຫົວຂໍ້ · ຄຳບັນຍາຍ · transition ແລ້ວ preview"},
+ {"mark": "num", "text": "Render ອອກເປັນໄຟລ໌ວິດີໂອ (headless browser)"},
+ {"mark": "dot", "text": "ລອງກ່ອນທີ່ Playground: hyperframes.dev"}
+ ]
+ },
+ {
+ "kind": "points",
+ "title": "ເໝາະ & ຕ້ອງລະວັງ",
+ "items": [
+ {"mark": "check", "text": "Demo ສິນຄ້າ · dashboard · chart · ໂພສ motion graphic"},
+ {"mark": "check", "text": "Batch: template ດຽວ ປ່ຽນຂໍ້ມູນ/ພາສາ ໄດ້ຫຼາຍຄລິບ"},
+ {"mark": "cross", "text": "ບໍ່ເໝາະວິດີໂອ photorealistic ຫຼື ກ້ອງເຄື່ອນໄຫວສະຈິງ"},
+ {"mark": "cross", "text": "ບໍ່ມີສຽງໃນຕົວ · ຕ້ອງກວດ font/asset ໃຫ້ໂຫຼດຄົບ"}
+ ]
+ }
+ ]
+}

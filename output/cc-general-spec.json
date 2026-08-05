@@ -1,0 +1,51 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-cc-general",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "footer_tags": "#arnfar   #ArnfarERP   #arnfar.com",
+  "motif": "robot",
+  "tags": ["Claude", "ChatGPT", "AITools"],
+  "cards": [
+    {
+      "kind": "feature",
+      "eyebrow": "CLAUDE vs CHATGPT",
+      "headline": ["Claude ຫຼື ChatGPT?"],
+      "accent": "ວຽກປະຈຳວັນ ໃຊ້ໂຕໃດດີ",
+      "subhead": "ໃຜເກັ່ງຫຍັງ — ເບິ່ງເປັນຂໍ້ໆ",
+      "mockup": {
+        "type": "leaderboard",
+        "label": "ໃຜຊະນະດ້ານໃດ",
+        "rows": [
+          {"icon": "code", "name": "ຂຽນໂຄດ", "value": "Claude", "highlight": true},
+          {"icon": "doc", "name": "ຂຽນ / ໂທນສຽງ", "value": "Claude"},
+          {"icon": "video", "name": "ສ້າງຮູບພາບ", "value": "ChatGPT"},
+          {"icon": "globe", "name": "ທ່ອງເວັບ", "value": "ChatGPT"}
+        ]
+      },
+      "badges": ["$20/ເດືອນ ເທົ່າກັນ", "ມີແພັກຟຣີ"],
+      "hashtags": "#arnfar  #Claude  #ChatGPT  #LaoTech"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຈຸດເດັ່ນ",
+      "title": "ຕ່າງກັນຢູ່ໃສ",
+      "items": [
+        {"mark": "check", "text": "Claude: ຂຽນ prose ທຳມະຊາດ · ອ່ານເອກະສານຍາວເກັ່ງ"},
+        {"mark": "check", "text": "ChatGPT: ສ້າງຮູບ (DALL-E) · ທ່ອງເວັບ · Deep Research"},
+        {"mark": "dot", "text": "ChatGPT ເຊື່ອມ Slack · Notion · M365 · Drive ກວ້າງກວ່າ"},
+        {"mark": "dot", "text": "Claude context 200K (ບາງໂຕ 1M) · ChatGPT 128K (ບາງໂຕ 1M)"}
+      ]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຂໍ້ດີ / ຂໍ້ເສຍ",
+      "title": "ສິ່ງທີ່ຕ້ອງລະວັງ",
+      "items": [
+        {"mark": "check", "text": "ຂຽນ-ວິເຄາະ-ເອກະສານ ໂທນທຳມະຊາດ → Claude"},
+        {"mark": "check", "text": "ຮູບພາບ + ທ່ອງເວັບ + ຟີເຈີກວ້າງ → ChatGPT"},
+        {"mark": "cross", "text": "Claude ຍັງສ້າງຮູບບໍ່ໄດ້"},
+        {"mark": "cross", "text": "ພາສາລາວຍັງບໍ່ແມ່ນຈຸດແຂງ — ຄວນກວດຄຳຕອບ"}
+      ]
+    }
+  ]
+}

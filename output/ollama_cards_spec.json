@@ -1,0 +1,39 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-ollama",
+  "brand": "Arnfar",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "footer_left": "github.com/ollama/ollama",
+  "footer_right": "Ollama v0.30.9",
+  "cards": [
+    {
+      "kind": "hero",
+      "eyebrow": "OLLAMA · LOCAL LLM",
+      "headline": ["ແລ່ນ AI ໃນເຄື່ອງຕົນເອງ", "ບໍ່ຕ້ອງເນັດ ບໍ່ເສຍຄ່າ"],
+      "accent": "Ollama v0.30.9",
+      "subhead": "ເຄື່ອງມື Open Source ແລ່ນ LLM ໄດ້ທັງ Mac, NVIDIA, AMD",
+      "chips": ["MLX + llama.cpp", "GGUF / Hugging Face", "Cohere2Moe"],
+      "date": "ປ່ອຍ v0.30.9",
+      "date_sub": "16 ມິຖຸນາ 2026"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ສິ່ງທີ່ປ່ຽນແປງ",
+      "title": "ມີຫຍັງໃໝ່ໃນຮຸ່ນ 0.30",
+      "items": [
+        {"mark": "check", "text": "MLX engine ສຳລັບ Mac + llama.cpp — ຮອງຮັບ hardware ກວ້າງຂຶ້ນ"},
+        {"mark": "check", "text": "ຮອງຮັບໂມເດລ GGUF ຈາກ Hugging Face ແລະ fine-tune ເອງ"},
+        {"mark": "check", "text": "v0.30.9: ເພີ່ມ Cohere2Moe ແລະ ແກ້ບັກ launch coding agent"},
+        {"mark": "dot", "text": "Gemma 4 QAT ປະຫຍັດ RAM · Hermes Desktop UI"},
+        {"mark": "cross", "text": "ໂມເດລໃຫຍ່ຕ້ອງ RAM ແລະ GPU ແຮງສູງ"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "category": "ຄວາມນິຍົມ",
+      "value": "174k+",
+      "label": "ດາວ (stars) ເທິງ GitHub",
+      "note": "ໜຶ່ງໃນເຄື່ອງມື local LLM ຍອດນິຍົມທີ່ສຸດ"
+    }
+  ]
+}

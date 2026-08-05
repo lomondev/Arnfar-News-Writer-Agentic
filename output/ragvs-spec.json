@@ -1,0 +1,59 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-ragvs",
+  "category": "ປຽບທຽບ AI",
+  "tags": ["RAG", "PageIndex", "AIDev"],
+  "cards": [
+    {
+      "kind": "hero",
+      "eyebrow": "VECTOR RAG  vs  PAGEINDEX",
+      "headline": ["RAG ທຽບ PageIndex"],
+      "accent": "ຄວາມຄ້າຍ (Vector) ທຽບ ການ Reasoning",
+      "subhead": "ບໍ່ມີໃຜຊະນະຂາດ — ແຕ່ລະຝ່າຍເໝາະກັບວຽກຄົນລະແບບ",
+      "chips": ["Vector RAG", "PageIndex", "Hybrid"],
+      "date": "ວັນທີ 7 ກໍລະກົດ 2026"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "HEAD-TO-HEAD",
+      "title": "ຕາຕະລາງປຽບທຽບ",
+      "items": [
+        {"mark": "dot", "text": "ຄວາມໄວ: Vector = ms · PageIndex = 2–5 ວິນາທີ/query"},
+        {"mark": "dot", "text": "ຕົ້ນທຶນ: Vector = ຖືກ · PageIndex = ແພງກວ່າ (ຍິງ LLM ທຸກຂັ້ນ)"},
+        {"mark": "dot", "text": "ຂະໜາດ: Vector = ຫຼາຍລ້ານສະບັບ · PageIndex = ເອກະສານຍາວ/ຊຸດນ້ອຍ"},
+        {"mark": "dot", "text": "ຄວາມຖືກຕ້ອງ (ໂຄງສ້າງ): Vector ~30–50% · PageIndex 98.7%"},
+        {"mark": "dot", "text": "ຄວາມໂປ່ງໃສ: Vector = ຈຳກັດ · PageIndex = ຕິດຕາມໄດ້ຊັດ"},
+        {"mark": "dot", "text": "Infra: Vector = ຕ້ອງມີ vector DB · PageIndex = ບໍ່ຕ້ອງ"}
+      ]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "PROS / CONS",
+      "title": "ຂໍ້ດີ ແລະ ຂໍ້ຈຳກັດ",
+      "items": [
+        {"mark": "check", "text": "Vector RAG: ໄວ, ຖືກ, ຂະຫຍາຍໃຫຍ່ — ດີສຳລັບ chatbot ຄົນໃຊ້ຫຼາຍ"},
+        {"mark": "check", "text": "PageIndex: ຖືກຕ້ອງສູງ + ອະທິບາຍໄດ້ — ດີສຳລັບເອກະສານໂຄງສ້າງ"},
+        {"mark": "cross", "text": "Vector RAG: ຫັ່ນ chunk ທຳລາຍໂຄງສ້າງ — ຕອບຜິດງ່າຍກັບ ການເງິນ/ກົດໝາຍ"},
+        {"mark": "cross", "text": "PageIndex: ຊ້າ + ແພງກວ່າ — ບໍ່ເໝາະ app ຄົນໃຊ້ຫຼາຍທີ່ຕ້ອງໄວ"}
+      ]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ເລືອກຕາມວຽກ",
+      "title": "ວຽກໃດ ໃຊ້ອັນໃດ?",
+      "items": [
+        {"mark": "num", "text": "ຂໍ້ມູນຫຼາຍສະບັບ, ຄົນໃຊ້ຫຼາຍ, ຕ້ອງໄວ ແລະ ຖືກ → Vector RAG"},
+        {"mark": "num", "text": "ເອກະສານຍາວ ໂຄງສ້າງຊັບຊ້ອນ (ການເງິນ, ກົດໝາຍ, ຄູ່ມື) → PageIndex"},
+        {"mark": "num", "text": "ຢາກໄດ້ທັງໄວ ແລະ ຖືກ → Hybrid: vector ກັ່ນ 10,000 → 100 ແລ້ວ PageIndex ຄົ້ນລະອຽດ"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "98.7% vs ~40%",
+      "label": "ຄວາມຖືກຕ້ອງເທິງ FinanceBench (ເອກະສານມີໂຄງສ້າງ)",
+      "note": "PageIndex ທຽບ Vector RAG ທຳມະດາ · ອີງ VectifyAI",
+      "badges": ["ໂຄງສ້າງ = PageIndex", "ຂະໜາດ = Vector"],
+      "chips": ["ໄວ: Vector", "ຖືກ: PageIndex", "ທັງສອງ: Hybrid"]
+    }
+  ]
+}

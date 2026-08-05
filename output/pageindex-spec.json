@@ -1,0 +1,56 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-pageindex",
+  "category": "ຂ່າວ AI",
+  "tags": ["RAG", "PageIndex", "AIDev"],
+  "cards": [
+    {
+      "kind": "feature",
+      "eyebrow": "VECTORLESS RAG · VectifyAI",
+      "headline": ["PageIndex"],
+      "accent": "RAG ແບບບໍ່ໃຊ້ Vector",
+      "subhead": "ໃຫ້ LLM \"ຄິດ\" ຄົ້ນຫາຄຳຕອບ ຄືຜູ້ຊ່ຽວຊານເປີດປຶ້ມ",
+      "mockup": {
+        "type": "leaderboard",
+        "label": "FinanceBench · ຄວາມຖືກຕ້ອງ",
+        "rows": [
+          {"icon": "spark", "name": "PageIndex (Mafin 2.5)", "value": "98.7%", "highlight": true},
+          {"icon": "dot", "name": "Vector RAG (ດີສຸດ)", "value": "~50%"},
+          {"icon": "dot", "name": "Vector RAG (ທົ່ວໄປ)", "value": "~30%"}
+        ]
+      },
+      "badges": ["MIT License", "23,000+ Stars"],
+      "hashtags": "#arnfar  #PageIndex  #VectorlessRAG"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "HOW IT WORKS",
+      "title": "ຕ່າງຈາກ RAG ເກົ່າແນວໃດ?",
+      "items": [
+        {"mark": "cross", "text": "ບໍ່ໃຊ້ Vector DB — ໃຊ້ໂຄງສ້າງເອກະສານ + reasoning ຂອງ LLM ແທນ"},
+        {"mark": "cross", "text": "ບໍ່ຫັ່ນ chunk — ຈັດເອກະສານເປັນ tree ຕາມໂຄງສ້າງຈິງ (ບົດ, ຫົວຂໍ້, ໜ້າ)"},
+        {"mark": "check", "text": "ຄົ້ນຫາແບບຄົນ — LLM \"ເດີນ\" ຜ່ານ tree ຄືຜູ້ຊ່ຽວຊານເປີດຫາຂໍ້ມູນ"},
+        {"mark": "dot", "text": "tree search ໄດ້ແຮງບັນດານໃຈຈາກ AlphaGo — ເລືອກເສັ້ນທາງທີ່ຖືກ ບໍ່ຄົ້ນທຸກບ່ອນ"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "98.7%",
+      "label": "ຄວາມຖືກຕ້ອງເທິງ FinanceBench (SEC filings)",
+      "note": "ທຽບກັບ Vector RAG ທຳມະດາ ~30–50% · ອີງ VectifyAI",
+      "badges": ["Zero Vectors", "Zero Chunking"],
+      "chips": ["Explainable", "MIT", "23k+ Stars"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຂໍ້ດີ / ຂໍ້ຄວນລະວັງ",
+      "title": "ຄວນຮູ້ກ່ອນໃຊ້",
+      "items": [
+        {"mark": "check", "text": "ຕອບຖືກສູງກັບເອກະສານມີໂຄງສ້າງ + ຕິດຕາມທີ່ມາຄຳຕອບໄດ້ (explainable)"},
+        {"mark": "check", "text": "ບໍ່ຕ້ອງຕັ້ງ ແລະ ດູແລ vector database — ຫຼຸດຄວາມຫຍຸ້ງຍາກ infra"},
+        {"mark": "cross", "text": "ຍິງ LLM ຫຼາຍຮອບຕໍ່ query — ຕົ້ນທຶນ + latency ອາດສູງກວ່າ vector search"},
+        {"mark": "cross", "text": "ເໝາະເອກະສານມີໂຄງສ້າງ — chat log / ຂໍ້ມູນຫຍາບ ອາດບໍ່ໄດ້ປະໂຫຍດເທົ່າ"}
+      ]
+    }
+  ]
+}

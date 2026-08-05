@@ -1,0 +1,59 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-cc-coding",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "footer_tags": "#arnfar   #ArnfarERP   #arnfar.com",
+  "motif": "code",
+  "tags": ["Claude", "ChatGPT", "AICoding"],
+  "cards": [
+    {
+      "kind": "showcase",
+      "chart": {
+        "title": "SWE-Bench Pro (%)",
+        "legend": ["Claude", "OpenAI"],
+        "bars": [
+          {"label": "Claude Fable 5", "value": 80.3, "highlight": true},
+          {"label": "Claude Opus 4.8", "value": 69.2, "color": "light"},
+          {"label": "Claude Sonnet 5", "value": 63.2, "color": "light"},
+          {"label": "GPT-5.5", "value": 58.6, "muted": true}
+        ]
+      },
+      "bodies": ["Claude", "OpenAI", "ຕະຫຼາດ"],
+      "body_subs": ["SWE-Bench", "Agent Index", "2026"],
+      "badges": ["Fable 5 = GA", "Sol = Preview"],
+      "date": "ວັນທີ 10 ເດືອນ 07 ປີ 2026 · Benchmark",
+      "headline": ["Claude ປະທະ ChatGPT", "ວຽກຂຽນໂຄດ 2026"],
+      "subhead": ["SWE-Bench Pro: Fable 5 ນຳ 80.3%", "Coding Agent Index: GPT-5.6 Sol ນຳ 80"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "BENCHMARK",
+      "title": "ໃຜເກັ່ງກວ່າ? ແບ່ງກັນຊະນະ",
+      "items": [
+        {"mark": "check", "text": "SWE-Bench Pro: Claude Fable 5 ນຳ 80.3% (ສູງສຸດທີ່ໃຊ້ໄດ້)"},
+        {"mark": "check", "text": "Coding Agent Index: GPT-5.6 Sol ນຳ 80 · ໃຊ້ token ໜ້ອຍກວ່າເຄິ່ງ"},
+        {"mark": "check", "text": "Agents' Last Exam: Sol ນຳ 53.6 (ນຳ Fable ເຖິງ 13.1)"},
+        {"mark": "dot", "text": "Claude Code ແຖມໃນ Pro · OpenAI ມີ Codex"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "95% vs 85%",
+      "label": "ຄວາມຖືກຕ້ອງໃນການທົດສອບ 30 ວັນ (Ryz Labs)",
+      "note": "Claude ~95% · ChatGPT ~85%",
+      "badges": ["Claude ນຳ"],
+      "chips": ["1M context ທັງຄູ່", "$20/ເດືອນ ເທົ່າກັນ"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຂໍ້ດີ / ຂໍ້ເສຍ",
+      "title": "ເລືອກຕາມວຽກ",
+      "items": [
+        {"mark": "check", "text": "codebase ໃຫຍ່ + SWE-Bench ສູງ → Claude Fable 5"},
+        {"mark": "check", "text": "ວຽກ agent ໄວ-ຖືກ-token ໜ້ອຍ → GPT-5.6 Sol"},
+        {"mark": "cross", "text": "GPT-5.6 Sol ຍັງເປັນ limited preview"},
+        {"mark": "cross", "text": "ຄ່າ API ຕ່າງ: Sol $5/$30 · Fable 5 $10/$50"}
+      ]
+    }
+  ]
+}

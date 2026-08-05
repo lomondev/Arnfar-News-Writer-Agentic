@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="lo" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnfar Liquid Glass Card Showcase</title>
+    <meta name="description" content="Interactive previewer for Arnfar modern Liquid Glass (Glassmorphism) social and ERP cards.">
+    <!-- Google Fonts for premium typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@300;400;700&family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Animated Highlights & Grid -->
+    <div class="app-background" aria-hidden="true">
+        <div class="glow-orb orb-top-left"></div>
+        <div class="glow-orb orb-bottom-right"></div>
+        <div class="grid-layer"></div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <header class="app-header">
+        <div class="header-logo">
+            <span class="logo-icon" aria-hidden="true">⚡</span>
+            <span class="logo-text">Arnfar <span class="logo-text-accent">Studio</span></span>
+        </div>
+        
+        <div class="header-controls">
+            <!-- Spec File Selector -->
+            <div class="control-group">
+                <label for="specSelector" class="control-label">ເລືອກ Spec:</label>
+                <select id="specSelector" class="glass-select" aria-label="Select card specification JSON">
+                    <option value="../output/gemini-image-models-spec.json" selected>(Recommended) Google Gemini Image Models</option>
+                    <option value="../output/mcp_cards_spec.json">Model Context Protocol (MCP)</option>
+                    <option value="../output/gpt56_spec.json">GPT 5.6 Release Spec</option>
+                    <option value="../output/kimi_spec.json">Kimi K2-6 Release Spec</option>
+                    <option value="../output/tencent_spec.json">Tencent Xiaowei Spec</option>
+                    <option value="../output/aisecscan_spec.json">AI Security Scan Spec</option>
+                    <option value="../output/agentjacking-spec.json">Agent Jacking Spec</option>
+                    <option value="../output/fable5-spec.json">Fable 5 Restored Spec</option>
+                </select>
+            </div>
+
+            <!-- Viewport Simulation controls -->
+            <div class="control-group">
+                <span class="control-label">Viewport:</span>
+                <div class="btn-group" role="group" aria-label="Viewport size simulator">
+                    <button class="glass-btn active" id="btnDesktop" data-view="desktop">🖥️ Desktop</button>
+                    <button class="glass-btn" id="btnTablet" data-view="tablet">📟 Tablet</button>
+                    <button class="glass-btn" id="btnMobile" data-view="mobile">📱 Mobile</button>
+                </div>
+            </div>
+
+            <!-- Dark / Light theme toggle -->
+            <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle light and dark mode">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="app-main-layout desktop-layout" id="mainContainer">
+        <!-- Rendered cards go here -->
+        <div class="loading-state">
+            <div class="spinner" aria-hidden="true"></div>
+            <p>ກຳລັງໂຫລດຂໍ້ມູນ Spec...</p>
+        </div>
+    </main>
+
+    <!-- Accessibility & Diagnostic Sidebar -->
+    <footer class="app-diagnostic-bar">
+        <div class="diagnostic-item">
+            <span class="status-indicator success"></span>
+            <span>Liquid Glass design system ready</span>
+        </div>
+        <div class="diagnostic-item">
+            <span>Contrast check: </span>
+            <strong class="contrast-badge wcag-pass">WCAG AAA Pass</strong>
+        </div>
+        <div class="diagnostic-item">
+            <span>Performance: </span>
+            <strong class="performance-badge">60fps Backdrop Blur Active</strong>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

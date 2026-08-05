@@ -1,0 +1,29 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-sell-project",
+  "category": "ຄວາມຮູ້ບັນຊີ",
+  "tags": ["Accounting", "VAT", "ERP"],
+  "motif": "chart",
+  "cards": [
+    {
+      "kind": "hero",
+      "eyebrow": "ARNFAR ERP · ບັນຊີ",
+      "headline": ["ວິທີບັນທຶກບັນຊີ", "ການຂາຍໂຄງການ"],
+      "accent": "ຂາຍ + VAT 10%",
+      "subhead": "ລູກຄ້າ (Dr) = ລາຍຮັບ (Cr) + VAT (Cr)",
+      "chips": ["1211/1212/1213", "70xxx", "432"],
+      "date": "Arnfar · ຄວາມຮູ້ບັນຊີ"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຕົວຢ່າງ · ຂາຍ 10 ລ້ານກີບ + VAT 10%",
+      "title": "ບັນທຶກ Dr / Cr",
+      "items": [
+        {"mark": "num", "text": "Dr 1211 ລູກຄ້າ — 11,000,000 ກີບ (ຍອດລວມ)"},
+        {"mark": "num", "text": "Cr 70xxx ລາຍຮັບ — 10,000,000 ກີບ (ບໍ່ລວມ VAT)"},
+        {"mark": "num", "text": "Cr 432 VAT ຂາອອກ — 1,000,000 ກີບ"},
+        {"mark": "check", "text": "Dr ລວມ = Cr ລວມ = 11,000,000 ກີບ"}
+      ]
+    }
+  ]
+}

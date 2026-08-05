@@ -1,0 +1,59 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-google-2026-07-10",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "footer_tags": "#arnfar   #ArnfarERP   #arnfar.com",
+  "cards": [
+    {
+      "kind": "feature",
+      "motif": "robot",
+      "eyebrow": "GEMINI · AGENT",
+      "tags": ["Gemini", "AIagent", "Workspace"],
+      "headline": ["Gemini ກາຍເປັນ Agent"],
+      "accent": "ຊ່ວຍວຽກໃຫ້ 24 ຊົ່ວໂມງ",
+      "subhead": "Spark · Daily Brief · ເຮັດວຽກຕໍ່ ເຖິງຕອນທ່ານນອນ",
+      "mockup": {"type": "dashboard", "title": "Gemini Spark",
+                 "tiles": [{"value": "24/7", "label": "agent"},
+                           {"value": "3", "label": "Spark · Brief · Live"},
+                           {"value": "MCP", "label": "app links"}]},
+      "badges": ["24/7 Cloud", "MCP"],
+      "features": [
+        {"icon": "spark", "text": "ສະຫຼຸບຕອນເຊົ້າ ອັດຕະໂນມັດ"},
+        {"icon": "bolt", "text": "ເຮັດວຽກໃນ background"},
+        {"icon": "layers", "text": "ເຊື່ອມ Gmail · Docs · Slides"},
+        {"icon": "globe", "text": "ຕໍ່ແອັບພາຍນອກຜ່ານ MCP"}
+      ],
+      "hashtags": "#arnfar  #Gemini  #AIagent  #LaoTech"
+    },
+    {
+      "kind": "hero",
+      "motif": "chip",
+      "eyebrow": "ANDROID 17 · JULY 2026",
+      "tags": ["Android17", "Pixel", "Update"],
+      "headline": ["Android 17", "ອັບເດດທຳອິດ"],
+      "accent": "ແກ້ bootloop ໃນທີ່ສຸດ",
+      "subhead": "Pixel 6 ຮອດ 10a · 5 ບັກຖືກແກ້ · ໝັ້ນຄົງຂຶ້ນ",
+      "chips": ["Bootloop Fix", "21 ຮຸ່ນ", "OTA ຟຣີ"],
+      "date": "ວັນທີ 07 ເດືອນ 07 ປີ 2026",
+      "date_sub": "Build CP2A.260705.006"
+    },
+    {
+      "kind": "feature",
+      "motif": "globe",
+      "eyebrow": "GEMINI 3.5 FLASH",
+      "tags": ["Gemini", "AITranslate", "GoogleAI"],
+      "headline": ["Gemini 3.5 Flash"],
+      "accent": "ແປສຽງສົດ 70+ ພາສາ",
+      "subhead": "ຮັກສານ້ຳສຽງເດີມ · ໃຊ້ຄອມແທນເຮົາໄດ້",
+      "mockup": {"type": "video", "title": "live-translate.html", "tag": "70+ ພາສາ", "time": "LIVE"},
+      "badges": ["2,000+ ຄູ່ພາສາ", "Computer Use"],
+      "features": [
+        {"icon": "play", "text": "ແປສຽງເປັນສຽງ ແບບສົດ"},
+        {"icon": "globe", "text": "ກວດພາສາເອງ 70+ ພາສາ"},
+        {"icon": "code", "text": "Gemini API · AI Studio"},
+        {"icon": "bolt", "text": "Computer Use ສ້າງ agent"}
+      ],
+      "hashtags": "#arnfar  #Gemini  #AITranslate  #LaoTech"
+    }
+  ]
+}

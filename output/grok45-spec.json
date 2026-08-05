@@ -1,0 +1,51 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-grok45",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "tags": ["AICoding", "LLM", "DevTools"],
+  "motif": "aicoding",
+  "cards": [
+    {
+      "kind": "code",
+      "eyebrow": "SPACEXAI · MODEL RELEASE",
+      "headline": ["Grok 4.5 ອອກແລ້ວ", "AI ຂຽນໂຄດລະດັບ Opus"],
+      "accent": "Grok 4.5",
+      "subhead": "ເກັ່ງລະດັບເທິງ ແຕ່ໄວກວ່າ, ຖືກກວ່າ ແລະ ປະຢັດ token ກວ່າ",
+      "file": "main.rs",
+      "badge": "AI Agent",
+      "date": "ວັນທີ 09 ເດືອນ 07 ປີ 2026",
+      "hashtags": "#arnfar   #Grok   #AICoding"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ມີຫຍັງໃໝ່",
+      "title": "Grok 4.5 ຄືຫຍັງ?",
+      "items": [
+        {"mark": "dot", "text": "ສ້າງເທິງພື້ນຖານ V9 ຂະໜາດ 1.5 ພັນຕື້ parameter (MoE)"},
+        {"mark": "dot", "text": "Context window ໃຫຍ່ເຖິງ 500K token"},
+        {"mark": "dot", "text": "ຝຶກຮ່ວມກັບ Cursor — editor ຂຽນໂຄດ AI (SpaceX ຊື້ 60 ຕື້ USD)"},
+        {"mark": "dot", "text": "ລາຄາ API: 2 USD ຂາເຂົ້າ / 6 USD ຂາອອກ ຕໍ່ 1 ລ້ານ token"},
+        {"mark": "dot", "text": "ອັນດັບ #4 ໃນ Intelligence Index (54 ຄະແນນ)"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "4.2×",
+      "label": "ປະຢັດ token ຂາອອກ ທຽບກັບ Opus 4.8",
+      "note": "SWE-Bench Pro: 15,954 token ທຽບກັບ 67,020 token",
+      "badges": ["500K context", "$2 / 1M in"],
+      "chips": ["ໄວກວ່າ", "ຖືກກວ່າ", "ຄຸ້ມກວ່າ"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຂໍ້ດີ vs ຂໍ້ເສຍ",
+      "title": "ຄວນໃຊ້ບໍ່?",
+      "items": [
+        {"mark": "check", "text": "ຖືກ ແລະ ປະຢັດ token — ເໝາະ startup ແລະ ນັກພັດທະນາລາວ"},
+        {"mark": "check", "text": "Context 500K + ຝຶກກັບ Cursor — ດີສຳລັບວຽກ agent"},
+        {"mark": "cross", "text": "ຍັງແພ້ Opus 4.8 ໃນ DeepSWE 1.1 ແລະ SWE-Bench Pro"},
+        {"mark": "cross", "text": "Coding Agent Index 76 — ຕ່ຳກວ່າ Fable 5"}
+      ]
+    }
+  ]
+}

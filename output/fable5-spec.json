@@ -1,0 +1,48 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-fable5",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "tags": ["Anthropic", "ClaudeAI", "Policy"],
+  "motif": "ai",
+  "footer_tags": "#arnfar   #ArnfarERP   #arnfar.com",
+  "cards": [
+    {
+      "kind": "hero",
+      "eyebrow": "BREAKING · US LIFTS EXPORT CONTROLS",
+      "headline": ["Fable 5", "ກັບມາແລ້ວ!"],
+      "accent": "US ຍົກເລີກຂໍ້ຈຳກັດ · 1 ກໍລະກົດ 2026",
+      "subhead": "Anthropic ຄືນການເຂົ້າເຖິງ AI ຮຸ່ນແຮງທີ່ສຸດຂອງຕົນ",
+      "chips": ["Anthropic", "Claude", "Frontier AI"]
+    },
+    {
+      "kind": "points",
+      "title": "ໄທມ໌ໄລນ໌ເຫດການ",
+      "eyebrow": "WHAT HAPPENED",
+      "items": [
+        {"mark": "num", "text": "9 ມິຖຸນາ: Anthropic ເປີດໂຕ Fable 5 — SOTA ໃນເກືອບທຸກ benchmark"},
+        {"mark": "num", "text": "12 ມິຖຸນາ: ຖືກສັ່ງໂຈະ ຕາມ export control ອ້າງ 'ຄວາມໝັ້ນຄົງແຫ່ງຊາດ'"},
+        {"mark": "num", "text": "ລູກຄ້າຟ້ອງລັດຖະບານ US ຍ້ອນເສຍການເຂົ້າເຖິງ"},
+        {"mark": "check", "text": "1 ກໍລະກົດ: US ຖອນຂໍ້ຈຳກັດ — ຄືນການໃຊ້ງານ"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "$10 / $50",
+      "label": "ຕໍ່ 1 ລ້ານ token (ຂາເຂົ້າ / ຂາອອກ)",
+      "note": "ຖືກກວ່າ Claude Mythos Preview ເກີນເຄິ່ງໜຶ່ງ",
+      "badges": ["Mythos-class", "SOTA benchmarks"],
+      "chips": ["<5% fallback", "Vision SOTA", "Coding"]
+    },
+    {
+      "kind": "points",
+      "title": "ຂໍ້ດີ ແລະ ສິ່ງທີ່ຕ້ອງລະວັງ",
+      "eyebrow": "PROS & CONS",
+      "items": [
+        {"mark": "check", "text": "Stripe: Fable 5 ຫຍໍ້ວຽກຫຼາຍເດືອນ ໃຫ້ເຫຼືອຫຼາຍມື້"},
+        {"mark": "check", "text": "ລາຄາຖືກລົງ — AI ແຮງໆ ເຂົ້າເຖິງໄດ້ຫຼາຍຂຶ້ນ"},
+        {"mark": "cross", "text": "ການເຂົ້າເຖິງຂຶ້ນກັບນະໂຍບາຍ US — ອາດປ່ຽນໄດ້ອີກ"},
+        {"mark": "cross", "text": "safeguard ຍັງເຄັ່ງ — ບາງຄຳຖາມທຳມະດາຖືກ block"}
+      ]
+    }
+  ]
+}

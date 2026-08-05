@@ -1,0 +1,36 @@
+{
+ "size": "portrait",
+ "prefix": "arnfar-deepmind",
+ "category": "ຂ່າວ AI",
+ "footer_left": "fortune.com · bloomberg.com",
+ "footer_right": "Arnfar",
+ "cards": [
+ {
+ "kind": "hero",
+ "eyebrow": "AI TALENT WAR",
+ "headline": ["Google DeepMind", "ສະໝອງໄຫຼອອກ"],
+ "accent": "Alphabet ມູນຄ່າຫາຍ ~$269B",
+ "subhead": "ນັກວິໄຈ 4 ຄົນ ໄປ OpenAI & Anthropic ໃນ ~6 ມື້",
+ "chips": ["18–24 ມິ.ຖ. 2026", "ຮຸ້ນຕົກ >5%", "AI Race"],
+ "date": "ມິຖຸນາ 2026",
+ "date_sub": "ໜຶ່ງໃນການສູນເສຍມູນຄ່າຄັ້ງໃຫຍ່ສຸດ ນອກລະບົບກຳໄລ"
+ },
+ {
+ "kind": "points",
+ "title": "ໃຜ ໄປ ໃສ?",
+ "items": [
+ {"mark": "num", "text": "Noam Shazeer — ຜູ້ຮ່ວມຂຽນ Transformer → OpenAI"},
+ {"mark": "num", "text": "John Jumper — Nobel ເຄມີ 2024 (AlphaFold) → Anthropic"},
+ {"mark": "num", "text": "Jonas Adler — ຫົວໜ້າ AI coding Gemini → Anthropic"},
+ {"mark": "num", "text": "Alexander Pritzel — pretraining Gemini → Anthropic"},
+ {"mark": "dot", "text": "Google ເຄີຍຈ່າຍ ~$2.7B ດຶງ Shazeer ກັບ (2024)"}
+ ]
+ },
+ {
+ "kind": "stat",
+ "value": "$269B",
+ "label": "ມູນຄ່າຕະຫຼາດ Alphabet ທີ່ຫາຍໄປ",
+ "note": "18–24 ມິຖຸນາ 2026 · ບໍ່ແມ່ນຄຳແນະນຳການລົງທຶນ"
+ }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-seo-aeo",
+  "brand": "ARNFAR",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "footer_left": "ແຫຼ່ງ: ລາຍງານອຸດສາຫະກຳ 2026",
+  "footer_right": "SEO × AEO",
+  "cards": [
+    {
+      "kind": "hero",
+      "eyebrow": "SEO × AEO · 2026",
+      "headline": ["SEO ກຳລັງປ່ຽນ", "ສູ່ຍຸກ AEO"],
+      "accent": "Answer Engine Optimization",
+      "subhead": "ຄົນເລີ່ມ 'ຖາມ AI' ແທນການກົດ Google",
+      "chips": ["AI Overviews", "ChatGPT", "Perplexity"],
+      "hashtags": "#arnfar  #SEO  #AEO  #AISearch"
+    },
+    {
+      "kind": "stat",
+      "category": "ຍຸກ AI Search",
+      "value": "60%",
+      "label": "ການຄົ້ນຫາ ຈົບໂດຍບໍ່ກົດ",
+      "note": "AI ສະຫຼຸບຄຳຕອບໃຫ້ທັນທີ (no-click search)"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຕ່າງກັນແນວໃດ",
+      "title": "SEO ທຽບກັບ AEO",
+      "items": [
+        {"mark": "dot", "text": "SEO: ປັບເວັບໃຫ້ຕິດອັນດັບ — ເນັ້ນ traffic"},
+        {"mark": "check", "text": "AEO: ປັບເນື້ອໃນໃຫ້ AI ເລືອກໄປຕອບ ແລະ ອ້າງອີງ"},
+        {"mark": "check", "text": "ໃຊ້ structured data (schema) ໃຫ້ AI ເຂົ້າໃຈງ່າຍ"},
+        {"mark": "cross", "text": "AEO ບໍ່ແທນ SEO — ຕ້ອງໃຊ້ຮ່ວມກັນ"}
+      ]
+    }
+  ]
+}

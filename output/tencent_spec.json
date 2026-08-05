@@ -1,0 +1,62 @@
+{
+ "size": "portrait",
+ "prefix": "arnfar-tencent",
+ "category": "ຂ່າວ AI & Tech",
+ "tags": ["AIagent", "WeChat", "China"],
+ "footer_left": "bloomberg.com · cnbc.com",
+ "footer_right": "Arnfar",
+ "motif": "aicoding",
+ "cards": [
+ {
+ "kind": "feature",
+ "eyebrow": "TENCENT · WECHAT",
+ "headline": ["Xiaowei"],
+ "accent": "AI ໃນ WeChat",
+ "subhead": "ຜູ້ຊ່ວຍ AI native — ສັ່ງງານໃນແອັບດ້ວຍສຽງ/ຂໍ້ຄວາມ",
+ "mockup": {"type": "browser", "title": "Weixin · Xiaowei", "icon": "spark",
+ "card_icons": ["doc", "globe", "play"]},
+ "badges": ["1.4B MAU", "Q3 rollout", "WeLM + DeepSeek"],
+ "features": [
+ {"icon": "spark", "text": "ຄຸຍດ້ວຍຂໍ້ຄວາມ ຫຼື ສຽງ"},
+ {"icon": "clock", "text": "ຕັ້ງເຕືອນ · ສົ່ງຂໍ້ຄວາມ · ໂທ"},
+ {"icon": "layers", "text": "ເປີດ/ສັ່ງງານ mini-programs"},
+ {"icon": "globe", "text": "Native ໃນ Weixin (ຈີນ) ກ່ອນ"}
+ ],
+ "hashtags": "#arnfar #Tencent #WeChat #AI"
+ },
+ {
+ "kind": "points",
+ "eyebrow": "ມັນເຮັດຫຍັງໄດ້?",
+ "title": "ຄວາມສາມາດ Xiaowei",
+ "items": [
+ {"mark": "num", "text": "ສັ່ງດ້ວຍພາສາທຳມະຊາດ — ຂໍ້ຄວາມ ຫຼື ສຽງ"},
+ {"mark": "num", "text": "ຕັ້ງເຕືອນປະຕິທິນ ແລະ ສົ່ງຂໍ້ຄວາມ WeChat"},
+ {"mark": "num", "text": "ໂທ voice call ໃຫ້ໝູ່ໂດຍກົງ"},
+ {"mark": "num", "text": "ເປີດ/ສັ່ງງານ mini-programs ໃນແອັບ"},
+ {"mark": "dot", "text": "ໃຊ້ໂມເດລ WeLM ເປັນຫຼັກ · ບາງເທື່ອ DeepSeek"}
+ ]
+ },
+ {
+ "kind": "stack",
+ "eyebrow": "ໃຊ້ເຄື່ອງມືຫຍັງ?",
+ "title": "Tech Stack ຂອງ Xiaowei",
+ "tools": [
+ {"icon": "spark", "name": "WeLM", "role": "ໂມເດລ LLM ຫຼັກຂອງ WeChat"},
+ {"icon": "bolt", "name": "DeepSeek", "role": "ໂມເດລນອກ — route ບາງຄຳຖາມ"},
+ {"icon": "layers", "name": "Mini-Programs", "role": "ແພລດຟອມແອັບນ້ອຍໃນ WeChat"},
+ {"icon": "globe", "name": "Voice / Text", "role": "ປ້ອນຂໍ້ມູນພາສາທຳມະຊາດ"}
+ ]
+ },
+ {
+ "kind": "points",
+ "eyebrow": "ບໍລິບົດ & ຂໍ້ຄວນລະວັງ",
+ "title": "ສິ່ງທີ່ຕ້ອງຮູ້",
+ "items": [
+ {"mark": "check", "text": "ເປັນ agent ສັ່ງງານຕົວຈິງ ບໍ່ແມ່ນແຄ່ chatbot"},
+ {"mark": "check", "text": "Tencent ເພີ່ມງົບ AI ຫຼາຍກວ່າ 2 ເທົ່າ (ເກີນ $5B)"},
+ {"mark": "cross", "text": "ຄວາມເປັນສ່ວນຕົວ — AI ເຂົ້າເຖິງຂໍ້ຄວາມ/ການໂທ"},
+ {"mark": "cross", "text": "ຍັງເປັນ beta ວົງແຄບ · ສະເພາະ Weixin ໃນຈີນ"}
+ ]
+ }
+ ]
+}

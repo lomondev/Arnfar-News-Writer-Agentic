@@ -1,0 +1,49 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-gram",
+  "category": "ຂ່າວຄວາມປອດໄພ AI",
+  "tags": ["AISafety", "Anthropic", "Research"],
+  "motif": "shield",
+  "cards": [
+    {
+      "kind": "hero",
+      "eyebrow": "ANTHROPIC · GRAM",
+      "headline": ["\"ສະວິດປິດ\"", "ຄວາມຮູ້ອັນຕະລາຍ", "ໃນ AI"],
+      "accent": "ຖອດອອກໄດ້ ໂດຍ AI ບໍ່ໂງ່ລົງ",
+      "subhead": "Anthropic + AE Studio ເປີດເຜີຍວິທີ GRAM ຄວບຄຸມຄວາມຮູ້ dual-use",
+      "chips": ["ໄວຣັດ", "ໄຊເບີ", "ນິວເຄຼຍ"],
+      "date": "ວັນທີ 8 ກໍລະກົດ 2026",
+      "date_sub": "Alignment Research"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ມັນເຮັດວຽກແນວໃດ",
+      "title": "GRAM ຄື \"ຫ້ອງເກັບ\" ຄວາມຮູ້ທີ່ຖອດໄດ້",
+      "items": [
+        {"mark": "num", "text": "ໃສ່ neuron ພິເສດທຸກຊັ້ນ ແບ່ງເປັນ module ໜຶ່ງຕໍ່ໜຶ່ງໝວດອັນຕະລາຍ"},
+        {"mark": "num", "text": "ຮຽນຂໍ້ມູນ dual-use → ໃຫ້ສະເພາະ module ນັ້ນຈື່ ສະໝອງຫຼັກຖືກ freeze"},
+        {"mark": "num", "text": "ລຶບ module = ລົບຄວາມສາມາດ ຄືບໍ່ເຄີຍຮຽນ; ໃສ່ຄືນ = ເປີດໃຫ້ຄົນທີ່ເຊື່ອຖືໄດ້"},
+        {"mark": "num", "text": "ຝຶກເທື່ອດຽວ 4 ໝວດ ຕັ້ງຄ່າໄດ້ 16 ແບບ (ເປີດ/ປິດແຕ່ລະໝວດ)"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "50M–5B",
+      "label": "ຂະໜາດໂມເດລທີ່ທົດສອບ (7 ຂະໜາດ)",
+      "note": "ຖອດ module ອອກ ລົບຄວາມສ່ຽງໄດ້ ໂດຍປະສິດທິພາບລວມບໍ່ຫຼຸດ",
+      "badges": ["ທົນຕໍ່ fine-tune", "ດີກວ່າ unlearning"],
+      "chips": ["4 ໝວດ dual-use", "16 ຄ່າ", "ຝຶກ 1 ເທື່ອ"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຂໍ້ດີ ແລະ ສິ່ງທີ່ຕ້ອງລະວັງ",
+      "title": "ຄຸ້ມຄ່າ ແຕ່ຍັງເປັນຂັ້ນທົດລອງ",
+      "items": [
+        {"mark": "check", "text": "ຄວບຄຸມຄວາມສ່ຽງຕົງຈຸດ ໂດຍ AI ບໍ່ໂງ່ລົງ"},
+        {"mark": "check", "text": "ຝຶກເທື່ອດຽວ ໄດ້ຫຼາຍລຸ້ນ — ປະຢັດຕົ້ນທຶນ"},
+        {"mark": "cross", "text": "ຍັງບໍ່ໄດ້ໃຊ້ໃນ Claude ຕົວຈິງ ຍັງເປັນຂັ້ນຄົ້ນຄວ້າ"},
+        {"mark": "cross", "text": "ຄວາມຮູ້ບາງຢ່າງພົວພັນກັນ ອາດແຍກອອກຍາກ"}
+      ]
+    }
+  ]
+}

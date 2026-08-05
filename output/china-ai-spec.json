@@ -1,0 +1,69 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-china-ai",
+  "category": "ຂ່າວ AI ໂລກ 2026",
+  "tags": ["ChinaAI", "DeepSeekV4", "AITrends"],
+  "cards": [
+    {
+      "kind": "showcase",
+      "chart": {
+        "title": "API Cost vs Performance Index (2026)",
+        "legend": ["China Open-Weight", "US Models"],
+        "bars": [
+          {"label": "DeepSeek V4-Flash ($0.15/M)", "value": 94.2, "highlight": true},
+          {"label": "Moonshot Kimi K3 ($0.40/M)", "value": 93.8, "color": "light"},
+          {"label": "Alibaba Qwen 3.8-Max ($0.60/M)", "value": 93.5, "color": "light"},
+          {"label": "Western Frontier ($5.00/M)", "value": 95.0, "muted": true}
+        ]
+      },
+      "bodies": ["DeepSeek V4", "Kimi K3", "Qwen 3.8"],
+      "body_subs": ["284B / 13B Active", "2.8T MoE / 1M Context", "2.4T Multimodal"],
+      "badges": ["10x-90x Cheaper", "Open Weight"],
+      "date": "ວັນທີ 1 ສິງຫາ 2026 · Arnfar Tech Report",
+      "headline": ["China AI Shockwave", "DeepSeek V4 · Kimi K3"],
+      "subhead": ["ປະສິດທິພາບລະດັບ Frontier ໃນຕົ້ນທຶນ ຖືກກວ່າ 10-90 ເທົ່າ", "ປ່ຽນແປງໂຄງສ້າງ ຕົ້ນທຶນ AI ທົ່ວໂລກ"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "WHAT'S NEW",
+      "title": "ມີຫຍັງໃໝ່ໃນ China AI?",
+      "items": [
+        {"mark": "check", "text": "DeepSeek V4-Flash ເປີດໂຕຢ່າງເປັນທາງການ ພ້ອມ Agentic Coding"},
+        {"mark": "check", "text": "Moonshot AI ເປີດໂຕ Kimi K3 ໂມເດວ 2.8T Parameters 1M Context"},
+        {"mark": "check", "text": "Alibaba Qwen 3.8-Max (2.4T) ເປີດ Preview ເທິງ WAIC 2026"},
+        {"mark": "dot", "text": "ໃຊ້ໂຄງສ້າງ Mixture-of-Experts (MoE) ປະຢັດພະລັງງານສູງ"},
+        {"mark": "dot", "text": "ເນັ້ນການແຈກ Open-Weight ໃຫ້ນັກພັດທະນາທົ່ວໂລກນຳໃຊ້"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "90%",
+      "label": "ຕົ້ນທຶນ API ທີ່ຖືກລົງ ຂອງ DeepSeek V4 ເມື່ອທຽບກັບ Frontier Models",
+      "note": "284B Parameters (13B Active) · ເຮັດວຽກ Agentic Workflow ໄວຂຶ້ນ 3 ເທົ່າ",
+      "badges": ["MoE Architecture", "High Efficiency"],
+      "chips": ["DeepSeek V4", "Kimi K3", "Qwen 3.8"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "PROS & RISKS",
+      "title": "ຂໍ້ດີ ແລະ ຂໍ້ຄວນລະວັງ",
+      "items": [
+        {"mark": "check", "text": "ຫຼຸດຕົ້ນທຶນການໃຊ້ AI API ຂອງ Startup ແລະ SME ຢ່າງມະຫາສານ"},
+        {"mark": "check", "text": "ສາມາດ deploy ເທິງ On-Premise Infrastructure ຂອງຕົນເອງໄດ້"},
+        {"mark": "cross", "text": "ຕ້ອງເລືອກ Model ให้ເໝາະກັບວຽກ (Multi-Model Setup)"},
+        {"mark": "cross", "text": "ການແຂ່ງຂັນສູງ ເຮັດໃຫ້ Model ໃໝ່ໆ ອັບເດດໄວຫຼາຍ"}
+      ]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ACTIONABLE STEPS",
+      "title": "ທາງອອກ ແລະ ຂໍ້ແນະນຳ",
+      "items": [
+        {"mark": "check", "text": "1. ເລີ່ມ Benchmark ໂມເດວ Open-Weight ເຊັ່ນ DeepSeek V4 / Qwen 3"},
+        {"mark": "check", "text": "2. ຈັດເຮັດ Multi-Model Routing Strategy ໃນອົງກອນ"},
+        {"mark": "check", "text": "3. ໃຊ້ໂມເດວລາຄາຖືກສຳລັບວຽກງ່າຍ ແລະ ໂມເດວໃຫຍ່ສຳລັບ reasoning"},
+        {"mark": "dot", "text": "ຕິດຕາມ Arnfar ເພື່ອອັບເດດ ເຕັກໂນໂລຢີ AI ລະດັບໂລກ"}
+      ]
+    }
+  ]
+}

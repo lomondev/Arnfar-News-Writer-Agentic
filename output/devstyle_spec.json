@@ -1,0 +1,35 @@
+{
+  "size": "square",
+  "prefix": "arnfar-devstyle",
+  "brand": "ARNFAR",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "footer_left": "github.com/ollama/ollama",
+  "footer_right": "Ollama v0.30.9",
+  "cards": [
+    {
+      "kind": "code",
+      "headline": ["AI ຊ່ວຍຂຽນໂຄດ"],
+      "accent": "Ollama v0.30.9",
+      "subhead": "ນັກຂຽນໂປຣແກຣມຍຸກໃໝ່ ປີ 2026",
+      "file": "main.go",
+      "badge": "AI Agent",
+      "hashtags": "#arnfar  #AICoding  #LaoDev"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ສິ່ງທີ່ປ່ຽນແປງ",
+      "title": "ມີຫຍັງໃໝ່ໃນຮຸ່ນ 0.30",
+      "items": [
+        {"mark": "check", "text": "MLX engine ສຳລັບ Mac + llama.cpp"},
+        {"mark": "check", "text": "ຮອງຮັບໂມເດລ GGUF ຈາກ Hugging Face"},
+        {"mark": "cross", "text": "ໂມເດລໃຫຍ່ຕ້ອງ RAM ແລະ GPU ແຮງສູງ"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "174k+",
+      "label": "ດາວ (stars) ເທິງ GitHub",
+      "note": "ໜຶ່ງໃນເຄື່ອງມື local LLM ຍອດນິຍົມ"
+    }
+  ]
+}

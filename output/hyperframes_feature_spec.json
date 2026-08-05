@@ -1,0 +1,25 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-hf-feature",
+  "category": "ຂ່າວ AI & Dev Tools",
+  "footer_left": "hyperframes.heygen.com",
+  "footer_right": "Arnfar",
+  "cards": [
+    {
+      "kind": "feature",
+      "eyebrow": "HEYGEN · OPEN SOURCE",
+      "headline": ["HyperFrames"],
+      "accent": "ຂຽນ HTML = ໄດ້ວິດີໂອ",
+      "subhead": "ໃຫ້ AI agent ຕັດຕໍ່ວິດີໂອດ້ວຍໂຄ້ດ",
+      "mockup": {"type": "video", "title": "promo.html", "tag": "1080p", "time": "0:06 / 0:15"},
+      "badges": ["Apache 2.0", "npx skills add"],
+      "features": [
+        {"icon": "code", "text": "ຂຽນ HTML/CSS/JS ເປັນສາກວິດີໂອ"},
+        {"icon": "bolt", "text": "Render ດ້ວຍ headless browser"},
+        {"icon": "layers", "text": "Batch ຫຼາຍຄລິບ ຈາກ template ດຽວ"},
+        {"icon": "globe", "text": "ໃຊ້ກັບ Claude Code · Cursor · Codex"}
+      ],
+      "hashtags": "#arnfar  #HyperFrames  #AIVideo  #LaoDev"
+    }
+  ]
+}

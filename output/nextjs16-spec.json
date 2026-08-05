@@ -1,0 +1,39 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-nextjs16",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "motif": "aicoding",
+  "tags": ["WebDev", "Nextjs", "React"],
+  "cards": [
+    {"kind": "code",
+     "headline": ["Next.js 16 ມາແລ້ວ", "ໄວຂຶ້ນ ແລະ cache ຊັດເຈນຂຶ້ນ"],
+     "accent": "16.2.10 LTS",
+     "subhead": "React Framework ຍອດນິຍົມ ອັບເກຣດຄັ້ງໃຫຍ່",
+     "file": "app/page.tsx",
+     "badge": "AI Agent",
+     "hashtags": "#arnfar  #Nextjs  #WebDev  #LaoDev"},
+    {"kind": "points",
+     "eyebrow": "WHAT'S NEW",
+     "title": "ມີຫຍັງໃໝ່ໃນ Next.js 16",
+     "items": [
+       {"mark": "check", "text": "Turbopack ເປັນ bundler ມາດຕະຖານ — compile ໄວຂຶ້ນ 400–900%"},
+       {"mark": "check", "text": "Cache Components + 'use cache' — ຄວບຄຸມ cache ແບບ opt-in"},
+       {"mark": "check", "text": "proxy.ts ມາແທນ middleware.ts — ຮັນເທິງ Node.js ເຕັມ"},
+       {"mark": "dot", "text": "ຮອງຮັບ React 19.2 + Next.js DevTools MCP"}
+     ]},
+    {"kind": "stat",
+     "value": "400–900%",
+     "label": "compile ໄວຂຶ້ນດ້ວຍ Turbopack",
+     "note": "ແລະ refresh ໄວຂຶ້ນ 67–100% ໃນແອັບຈິງ (ອີງຕາມ Vercel)",
+     "chips": ["Turbopack default", "filesystem cache", "server hot reload"]},
+    {"kind": "points",
+     "eyebrow": "ຂໍ້ດີ / ຂໍ້ເສຍ",
+     "title": "ຄວນອັບເກຣດບໍ?",
+     "items": [
+       {"mark": "check", "text": "build ໄວຂຶ້ນ ຫຼຸດເວລາລໍຖ້າ"},
+       {"mark": "check", "text": "cache ຄາດເດົາໄດ້ຫຼາຍຂຶ້ນ"},
+       {"mark": "cross", "text": "ມີ breaking changes — ຕ້ອງ migrate middleware → proxy"},
+       {"mark": "cross", "text": "Route Handlers ຍັງບໍ່ໄດ້ Server Fast Refresh"}
+     ]}
+  ]
+}

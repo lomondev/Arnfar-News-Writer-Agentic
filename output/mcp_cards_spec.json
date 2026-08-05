@@ -1,0 +1,39 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-mcp",
+  "brand": "Arnfar",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "footer_left": "modelcontextprotocol.io",
+  "footer_right": "Agentic AI Foundation",
+  "cards": [
+    {
+      "kind": "hero",
+      "eyebrow": "MODEL CONTEXT PROTOCOL (MCP)",
+      "headline": ["ການແກ້ໄຂໃຫຍ່ທີ່ສຸດ", "ນັບແຕ່ MCP ເປີດໂຕ"],
+      "accent": "ປ່ຽນເປັນ Stateless",
+      "subhead": "ໂປຣໂຕຄໍມາດຕະຖານເຊື່ອມຕໍ່ AI ກັບເຄື່ອງມື ແລະ ຂໍ້ມູນ",
+      "chips": ["Stateless core", "MCP Apps + Tasks", "Auth ເຂັ້ມຂຶ້ນ"],
+      "date": "ສະບັບ 2026-07-28",
+      "date_sub": "ປ່ອຍສະບັບສົມບູນ 28 ກໍລະກົດ 2026"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ສິ່ງທີ່ປ່ຽນແປງ",
+      "title": "ມີຫຍັງໃໝ່ໃນ MCP 2026-07-28",
+      "items": [
+        {"mark": "check", "text": "Stateless: ຖອດ session ອອກ — server scale ໄດ້ງ່າຍຂຶ້ນ"},
+        {"mark": "check", "text": "MCP Apps: server ສົ່ງ UI ແບບ HTML ໂຕ້ຕອບໄດ້"},
+        {"mark": "check", "text": "Auth ສອດຄ່ອງກັບ OAuth / OpenID Connect ຫຼາຍຂຶ້ນ"},
+        {"mark": "cross", "text": "ມີ breaking changes — ຕ້ອງແກ້ໂຄດ transport ແລະ Tasks"},
+        {"mark": "dot", "text": "Roots, Sampling, Logging ຖືກປະກາດ deprecated"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "category": "ການນຳໃຊ້",
+      "value": "10,000+",
+      "label": "MCP server ສາທາລະນະທີ່ໃຊ້ງານ",
+      "note": "ດາວໂຫຼດ SDK ປະມານ 97 ລ້ານຄັ້ງ/ເດືອນ"
+    }
+  ]
+}

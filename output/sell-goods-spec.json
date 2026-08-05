@@ -1,0 +1,51 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-sell-goods",
+  "category": "ຄວາມຮູ້ບັນຊີ",
+  "tags": ["Accounting", "VAT", "ERP"],
+  "motif": "chart",
+  "cards": [
+    {
+      "kind": "hero",
+      "eyebrow": "ARNFAR ERP · ບັນຊີ",
+      "headline": ["ບັນທຶກ ການຂາຍສິນຄ້າ", "2 ຊຸດ Dr / Cr"],
+      "accent": "ລາຍຮັບ + ຕົ້ນທຶນຂາຍ",
+      "subhead": "ຂາຍສິນຄ້າ ຕ້ອງລົງທັງ ລາຍຮັບ ແລະ ຕັດສິນຄ້າ (COGS)",
+      "chips": ["707 ຂາຍສິນຄ້າ", "432 VAT", "607 → 137"],
+      "date": "Arnfar · ຄວາມຮູ້ບັນຊີ"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຊຸດ 1 · ລາຍຮັບ (ຕອນອອກໃບຂາຍ)",
+      "title": "ບັນທຶກ ລາຍຮັບ + VAT",
+      "items": [
+        {"mark": "dot", "text": "Dr 1211 ລູກຄ້າ - ຄ່າສິນຄ້າ — 11,000,000 ກີບ (ຍອດລວມ)"},
+        {"mark": "dot", "text": "Cr 707 ຂາຍສິນຄ້າ — 10,000,000 ກີບ (ບໍ່ລວມ VAT)"},
+        {"mark": "dot", "text": "Cr 432 ລັດ-ອມພ ສົ້ນອອກ (VAT) — 1,000,000 ກີບ"},
+        {"mark": "check", "text": "Dr ລວມ = Cr ລວມ = 11,000,000 ກີບ"}
+      ]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຊຸດ 2 · ຕັດຕົ້ນທຶນສິນຄ້າ (COGS)",
+      "title": "ບັນທຶກ ຕົ້ນທຶນຂາຍ",
+      "items": [
+        {"mark": "dot", "text": "Dr 607 ສິນຄ້າ (ຕົ້ນທຶນຂາຍ) — 6,000,000 ກີບ"},
+        {"mark": "dot", "text": "Cr 137 ສິນຄ້າ ໃນສາງ — 6,000,000 ກີບ"},
+        {"mark": "check", "text": "ກຳໄລຂັ້ນຕົ້ນ = 10,000,000 − 6,000,000 = 4,000,000 ກີບ"},
+        {"mark": "num", "text": "137 ຢູ່ໝວດ 13 ເຄື່ອງໃນສາງ (Inventories)"}
+      ]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຂໍ້ຄວນຮູ້",
+      "title": "Perpetual vs Periodic",
+      "items": [
+        {"mark": "check", "text": "Perpetual — ບັນທຶກ COGS (607 → 137) ທຸກຄັ້ງທີ່ຂາຍ"},
+        {"mark": "cross", "text": "Periodic — ບໍ່ລົງ COGS ຕອນຂາຍ, ຄິດ ທ້າຍງວດ ຈາກ ການປ່ຽນແປງສາງ"},
+        {"mark": "dot", "text": "ຕອນຮັບເງິນ: Dr ເງິນສົດ/ທະນາຄານ, Cr 1211 ລູກຄ້າ"},
+        {"mark": "dot", "text": "ສ່ວນຫຼຸດ/ຮັບຄືນ: 709 ຂາຍສົ່ງຄືນ ແລະ ສ່ວນຫຼຸດ"}
+      ]
+    }
+  ]
+}

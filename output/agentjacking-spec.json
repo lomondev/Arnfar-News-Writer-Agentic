@@ -1,0 +1,36 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-agentjacking",
+  "category": "ຂ່າວຄວາມປອດໄພ AI",
+  "footer_left": "tenetsecurity.ai",
+  "footer_right": "Tenet Security",
+  "cards": [
+    {
+      "kind": "code",
+      "eyebrow": "AGENTJACKING",
+      "headline": ["error ປອມ 1 ອັນ", "ຍຶດ AI ໂຄດດິ້ງຂອງທ່ານໄດ້"],
+      "accent": "Claude Code · Cursor · Codex",
+      "subhead": "ແຮກເກີສັ່ງ AI run ໂຄດອັນຕະລາຍ ຜ່ານ Sentry MCP",
+      "file": "main.go",
+      "badge": "AI Agent",
+      "hashtags": "#arnfar  #Agentjacking  #AISecurity  #MCP"
+    },
+    {
+      "kind": "stat",
+      "value": "85%",
+      "label": "ອັດຕາສຳເລັດໃນການທົດສອບ",
+      "note": "Tenet ພົບ 2,388 ອົງກອນ ທີ່ມີ DSN ສ່ຽງຖືກໂຈມຕີ"
+    },
+    {
+      "kind": "points",
+      "title": "ວິທີປ້ອງກັນ (ເຮັດໄດ້ມື້ນີ້)",
+      "items": [
+        {"mark": "check", "text": "ປິດ Sentry MCP ຖ້າບໍ່ໃຊ້ ແລະ ລຶບ MCP server ທີ່ບໍ່ໄດ້ໃຊ້ອອກ"},
+        {"mark": "check", "text": "Rotate DSN ທີ່ເຄີຍເປີດເຜີຍ + ເພີ່ມເຂົ້າ secret scanning"},
+        {"mark": "check", "text": "ຢ່າສັ່ງ AI auto-fix Sentry issue ໂດຍບໍ່ກວດຄຳສັ່ງກ່ອນ run"},
+        {"mark": "check", "text": "ໃຊ້ເຄື່ອງມື open-source 'agent-jackstop' harden agent"},
+        {"mark": "cross", "text": "EDR/WAF/IAM/VPN/Firewall ກວດບໍ່ພົບ — ບໍ່ມີ malware ໃຫ້ກວດ"}
+      ]
+    }
+  ]
+}

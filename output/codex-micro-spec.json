@@ -1,0 +1,50 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-codex-micro",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "tags": ["OpenAI", "DevTools", "AICoding"],
+  "motif": "aicoding",
+  "footer_tags": "#arnfar   #ArnfarERP   #arnfar.com",
+  "cards": [
+    {
+      "kind": "code",
+      "eyebrow": "OPENAI · FIRST HARDWARE",
+      "headline": ["Codex Micro", "ແປ້ນປຸ່ມລັດ AI"],
+      "accent": "ເປີດໂຕ 15 ກໍລະກົດ 2026",
+      "subhead": "Hardware ໂຕທຳອິດຂອງ OpenAI — ສ້າງມາເພື່ອນັກຂຽນໂຄດ",
+      "file": "codex.go",
+      "badge": "AI Agent",
+      "hashtags": "#arnfar  #Codex  #AICoding"
+    },
+    {
+      "kind": "points",
+      "title": "ມັນແມ່ນຫຍັງ?",
+      "eyebrow": "WHAT IS IT",
+      "items": [
+        {"mark": "dot", "text": "Macro pad ນ້ອຍໆ ຮ່ວມກັບ Work Louder (ອີງຮຸ່ນ Creator Micro 2)"},
+        {"mark": "dot", "text": "ມີປຸ່ມກົນ 13 ປຸ່ມ + joystick + ເຊັນເຊີສຳຜັດ"},
+        {"mark": "dot", "text": "ໃຊ້ຄູ່ກັບ Codex — AI ຊ່ວຍຂຽນໂຄດຂອງ OpenAI"},
+        {"mark": "check", "text": "ກົດປຸ່ມດຽວ: ສ້າງໂຄດ, ຍິງ prompt, ແລ່ນ test, ສະຫຼັບ environment"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "~1 ລ້ານ",
+      "label": "ຄົນເບິ່ງວິດີໂອ teaser ພາຍໃນ 24 ຊົ່ວໂມງ",
+      "note": "ໃນ X (Twitter ເກົ່າ) — ກະແສແຮງທັນທີ",
+      "badges": ["15 ກໍລະກົດ 2026", "First Hardware"],
+      "chips": ["13 ປຸ່ມ", "~199 USD*", "Work Louder"]
+    },
+    {
+      "kind": "points",
+      "title": "ຂໍ້ດີ ແລະ ສິ່ງທີ່ຕ້ອງລະວັງ",
+      "eyebrow": "PROS & CONS",
+      "items": [
+        {"mark": "check", "text": "ເຮັດວຽກໄວຂຶ້ນ — ຫຍໍ້ຂັ້ນຕອນຊ້ຳໆເປັນປຸ່ມດຽວ"},
+        {"mark": "check", "text": "ເໝາະຄົນທີ່ໃຊ້ AI Coding ເປັນປະຈຳ"},
+        {"mark": "cross", "text": "ຍັງບໍ່ຮູ້ລາຄາ, OS, ຫຼື ຕັ້ງປຸ່ມເອງໄດ້ບໍ່"},
+        {"mark": "cross", "text": "ເປັນອຸປະກອນເສີມ — ບໍ່ຈຳເປັນຖ້າໃຊ້ shortcut ຢູ່ແລ້ວ"}
+      ]
+    }
+  ]
+}

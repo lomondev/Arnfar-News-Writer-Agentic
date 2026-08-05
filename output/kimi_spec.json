@@ -1,0 +1,38 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-kimi",
+  "brand": "ARNFAR",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "footer_left": "kimi.com",
+  "footer_right": "Kimi K2.6",
+  "cards": [
+    {
+      "kind": "code",
+      "headline": ["Kimi K2.6 ມາແລ້ວ"],
+      "accent": "Open-Source AI ຈາກ Moonshot",
+      "subhead": "ເກັ່ງ coding · Agent Swarm · ໃຊ້ໄດ້ຟຣີ",
+      "file": "app.py",
+      "badge": "Agent Swarm",
+      "hashtags": "#arnfar  #Kimi  #OpenSourceAI"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຈຸດເດັ່ນ",
+      "title": "ມີຫຍັງເດັ່ນໃນ K2.6",
+      "items": [
+        {"mark": "check", "text": "1T parameter MoE (ໃຊ້ງານຈິງ 32B ຕໍ່ຄັ້ງ)"},
+        {"mark": "check", "text": "ເກັ່ງ coding ສະເໝີ GPT-5.5 (SWE-Bench Pro 58.6%)"},
+        {"mark": "check", "text": "Agent Swarm: AI ຫຼາຍໂຕເຮັດວຽກພ້ອມກັນ"},
+        {"mark": "dot", "text": "ຮັບວິດີໂອໂດຍກົງ · weights ເປີດເທິງ Hugging Face"},
+        {"mark": "cross", "text": "ໂມເດລໃຫຍ່ — host ເອງຕ້ອງເຄື່ອງແຮງສູງ"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "category": "ສະຖາປັດ",
+      "value": "1T",
+      "label": "parameter (MoE)",
+      "note": "ໃຊ້ງານຈິງ 32B ຕໍ່ຄັ້ງ · Open Source"
+    }
+  ]
+}

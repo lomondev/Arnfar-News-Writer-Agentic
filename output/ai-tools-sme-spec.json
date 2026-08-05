@@ -1,0 +1,57 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-ai-tools-sme",
+  "style": "growth",
+  "motif": "grid",
+  "tags": ["AI Tools", "Small Business", "Productivity"],
+  "cards": [
+    {
+      "kind": "feature",
+      "eyebrow": "GUIDE · JULY 22, 2026",
+      "headline": ["AI ສຳລັບ", "ທຸລະກິດນ້ອຍ"],
+      "accent": "ເລີ່ມໄດ້ດ້ວຍງົບບໍ່ຮອດ 20 USD/ຄົນ/ເດືອນ",
+      "subhead": "4 ວຽກທຳອິດທີ່ຄວນໃຫ້ AI ຊ່ວຍ ແລະ ຄ່າໃຊ້ຈ່າຍຕົວຈິງ",
+      "mockup": {
+        "type": "leaderboard",
+        "label": "ລາຄາປະກາດ (USD/ຄົນ/ເດືອນ)",
+        "rows": [
+          {"icon": "layers", "name": "Google Workspace Business Standard", "value": "~14", "highlight": true},
+          {"icon": "doc", "name": "Claude Pro (ຈ່າຍລາຍປີ)", "value": "17"},
+          {"icon": "lock", "name": "Claude Team / ChatGPT Business", "value": "20–25"}
+        ]
+      },
+      "badges": ["ມີແພັກຟຣີໃຫ້ລອງ", "ຈ່າຍລາຍປີຖືກກວ່າ"],
+      "hashtags": "#arnfar  #AITools  #SmallBusiness"
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ເລີ່ມຈາກນີ້",
+      "title": "4 ວຽກທີ່ AI ຊ່ວຍໄດ້ໄວທີ່ສຸດ",
+      "items": [
+        {"mark": "check", "text": "ຕອບລູກຄ້າ ແລະ ຂຽນຄຳບັນຍາຍສິນຄ້າ, ໂພສການຕະຫຼາດ"},
+        {"mark": "check", "text": "ສະຫຼຸບບົດລາຍງານ, ຈັດຂໍ້ມູນການຂາຍ, ສ້າງໃບສະເໜີລາຄາ"},
+        {"mark": "check", "text": "ອອກແບບປ້າຍໂຄສະນາ ແລະ ຮູບໂພສ ດ້ວຍຕົນເອງ"},
+        {"mark": "check", "text": "ເຊື່ອມແອັບທີ່ໃຊ້ຢູ່ແລ້ວ ໃຫ້ສົ່ງຂໍ້ມູນຫາກັນອັດຕະໂນມັດ"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "66%",
+      "label": "SME ຢູ່ສະຫະລັດ ໃຊ້ AI ແລ້ວ ໃນປີ 2026",
+      "note": "ເພີ່ມຂຶ້ນຈາກ 55% ໃນປີກ່ອນ — Thryv AI and Small Business Adoption Survey",
+      "badges": ["ປະຢັດເວລາ 5–7 ຊົ່ວໂມງ/ອາທິດ"],
+      "chips": ["ຂໍ້ມູນຕະຫຼາດສະຫະລັດ", "ອັບເດດ 07/2026"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "ຕ້ອງລະວັງ",
+      "title": "ກ່ອນຈະເລີ່ມໃຊ້",
+      "items": [
+        {"mark": "cross", "text": "ຢ່າປ້ອນຂໍ້ມູນລັບຂອງລູກຄ້າ ເຊັ່ນ ເລກບັນຊີ ຫຼື ເອກະສານສ່ວນຕົວ"},
+        {"mark": "cross", "text": "AI ອາດໃຫ້ຂໍ້ມູນຜິດ ໂດຍສະເພາະຕົວເລກ ແລະ ຊື່ສະເພາະ"},
+        {"mark": "cross", "text": "ຄຸນນະພາບພາສາລາວຍັງບໍ່ດີເທົ່າພາສາອັງກິດ ຄວນໃຫ້ຄົນກວດກ່ອນ"},
+        {"mark": "dot", "text": "ເລີ່ມຈາກເຄື່ອງມືດຽວ ວັດຜົນ 1 ເດືອນ ແລ້ວຄ່ອຍຂະຫຍາຍ"}
+      ]
+    }
+  ]
+}
