@@ -1,9 +1,9 @@
 # ຫຼາຍປະເທດ ເຕືອນປະຊາຊົນ ກຽມນ້ຳ ແລະ ອາຫານ 3 ມື້ ລາວຄວນກຽມແນວໃດ (Global preparedness warnings)
 
-Status: ready, waiting for "post" (FB+IG Reel, TikTok)
+Status: posted 12:41 2026-10-31 (FB+IG Reel crossposted, TikTok) - HQ master v3 1080x1920 7.5 Mbps 169 MB, sha256 2a1252f9…c83b
 Slug: global-preparedness
 Requested: Lomon 2026-10-31 09:40
-Video: arnfar-global-preparedness-web.mp4 · cover: arnfar-global-preparedness-cover.jpg
+Video: output\videos\global-preparedness\arnfar-global-preparedness-HQ.mp4 (HQ master, uploaded unchanged) · cover: arnfar-global-preparedness-cover.jpg (2160x3840)
 
 ## POST (copy from here ↓)
 

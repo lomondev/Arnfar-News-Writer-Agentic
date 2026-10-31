@@ -7,7 +7,8 @@ voice WAV produced by LaoVoice AI Studio (Quick Script Studio, monologue mode):
 sentence boundaries are found with ffmpeg silencedetect and matched to the
 script lines, so subtitles and scene cuts follow the voice.
 
-usage: render_video.py <story.json> <voice.wav> <out.mp4> [--fps 30] [--preview]
+usage: render_video.py <story.json> <voice.wav> <out.mp4> [--fps 30] [--preview] [--web]
+  Output <out.mp4> is the HQ master (1080x1920, CRF 16 <=12 Mbps) and is the file to upload.
   --preview  writes <out>-sheet.jpg (one frame per scene) and stops; no MP4.
 
 story.json keys:
@@ -32,6 +33,16 @@ from playwright.sync_api import sync_playwright
 HERE = Path(__file__).resolve().parent
 LEAD = 0.1  # silence before the voice starts (s); keep tiny so the hook lands at frame 0
 TAIL = 1.2   # hold on the outro after the voice ends (s)
+# HQ standard (Lomon, 2026-10-31): every Arnfar video is uploaded as the 1080x1920 HQ master,
+# never a size-capped web copy. H.264 High, CRF 16 capped at 12 Mbps, preset slower, 2 s GOP, 30 fps.
+HQ_X264 = ["-c:v", "libx264", "-preset", "slower", "-profile:v", "high", "-crf", "16",
+           "-maxrate", "12M", "-bufsize", "24M", "-g", "60", "-keyint_min", "30", "-sc_threshold", "40",
+           "-x264-params", "aq-mode=3:aq-strength=0.9:deblock=-1,-1:psy-rd=1.0,0.15",
+           "-pix_fmt", "yuv420p", "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709"]
+HQ_MIN_KBPS = 3500  # QC floor for the master's video bitrate
+# Optional supersampling (--ss 2): frames drawn at 2160x3840 and Lanczos-downscaled to 1080x1920.
+# Slightly smoother text edges, about 1.5-2 h per 2:55 clip instead of about 25 min.
+SUPERSAMPLE = 1  # Lomon 2026-10-31: default 1x + HQ encode; pass --ss 2 only for a clip he asks to supersample
 
 
 def run(cmd: list[str]) -> str:
@@ -174,13 +185,13 @@ def build_spec(story: dict, wav: Path) -> dict:
     return spec
 
 
-def open_page(p, spec: dict, work: Path):
+def open_page(p, spec: dict, work: Path, scale: int = 1):
     page_dir = work / "page"
     page_dir.mkdir(parents=True, exist_ok=True)
     shutil.copy(HERE / "template.html", page_dir / "index.html")
     shutil.copytree(HERE / "fonts", page_dir / "fonts", dirs_exist_ok=True)
     browser = p.chromium.launch(args=["--force-color-profile=srgb", "--font-render-hinting=none"])
-    page = browser.new_page(viewport={"width": 1080, "height": 1920}, device_scale_factor=1)
+    page = browser.new_page(viewport={"width": 1080, "height": 1920}, device_scale_factor=scale)
     page.add_init_script(f"window.SPEC = {json.dumps(spec, ensure_ascii=False)};")
     page.goto((page_dir / "index.html").as_uri())
     page.evaluate("window.READY")
@@ -223,17 +234,17 @@ def preview(spec: dict, out: Path, work: Path) -> Path:
     return dst
 
 
-def render(spec: dict, wav: Path, out: Path, fps: int, work: Path, music: str | None) -> None:
+def render(spec: dict, wav: Path, out: Path, fps: int, work: Path, music: str | None, ss: int = SUPERSAMPLE) -> None:
     frames = int(spec["duration"] * fps)
     silent = work / "video.mp4"
     ff = subprocess.Popen(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(fps),
-                           "-c:v", "mjpeg", "-i", "-", "-c:v", "libx264", "-preset", "medium", "-crf", "19",
-                           "-pix_fmt", "yuv420p", "-r", str(fps), str(silent)], stdin=subprocess.PIPE)
+                           "-c:v", "mjpeg", "-i", "-", *(["-vf", "scale=1080:1920:flags=lanczos+accurate_rnd+full_chroma_int"] if ss > 1 else []),
+                           *HQ_X264, "-r", str(fps), str(silent)], stdin=subprocess.PIPE)
     with sync_playwright() as p:
-        browser, page = open_page(p, spec, work)
+        browser, page = open_page(p, spec, work, ss)
         for i in range(frames):
             page.evaluate(f"window.seek({i / fps})")
-            ff.stdin.write(page.screenshot(type="jpeg", quality=92))
+            ff.stdin.write(page.screenshot(type="jpeg", quality=100))
             if i % (fps * 10) == 0:
                 print(f"frame {i}/{frames}", flush=True)
         browser.close()
@@ -286,10 +297,18 @@ def mux(video: Path, wav: Path, out: Path, duration: float, music: str | None, w
          "-shortest", "-movflags", "+faststart", str(out)])
 
 
+def hq_report(src: Path) -> tuple[int, int, int, float]:
+    """(width, height, video kbps, duration) of the HQ master, for QC."""
+    o = run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height,bit_rate:format=duration",
+             "-of", "default=nw=1", str(src)])
+    kv = dict(l.split("=", 1) for l in o.splitlines() if "=" in l)
+    return int(kv["width"]), int(kv["height"]), int(int(kv.get("bit_rate", "0") or 0) / 1000), float(kv["duration"])
+
+
 def web_copy(src: Path) -> Path:
-    """Upload copy under ~9.5 MB (the browser upload tool caps a file at 10 MB).
-    Clips up to ~2:30 keep 1080x1920; longer clips (2:45-2:58 target since 2026-10-29) drop to
-    720x1280 so the bitrate per pixel stays watchable. Re-encodes smaller until the file fits."""
+    """LEGACY, off by default (--web). Upload copy under ~9.5 MB for the 10 MB browser-extension
+    upload cap. It looks soft (0.3 Mbps at 720p for a 2:55 clip); since 2026-10-31 Arnfar uploads
+    the HQ master through the Windows file dialog instead. Only use when explicitly asked."""
     dst = src.with_name(src.stem + "-web.mp4")
     dur = audio_duration(src)
     akbps = 96
@@ -317,6 +336,8 @@ def main() -> None:
     ap.add_argument("--music", default="hype", help="background music mood: hype (default, energetic) | calm | upbeat | serious, or 'none'")
     ap.add_argument("--remux", action="store_true", help="keep the existing MP4 frames, rebuild audio only")
     ap.add_argument("--check", action="store_true", help="only run the safe-zone / overflow check (exit 1 on issues)")
+    ap.add_argument("--ss", type=int, default=SUPERSAMPLE, help="supersampling factor: 1 (default, HQ encode) or 2 (draw 2160x3840 then downscale; 1.5-2 h per clip, only on request)")
+    ap.add_argument("--web", action="store_true", help="LEGACY: also write a <=9.7 MB -web.mp4 (soft); not for normal uploads")
     a = ap.parse_args()
     music = None if a.music in ("none", "off", "") else a.music
     story_path = Path(a.story).resolve()
@@ -360,10 +381,15 @@ def main() -> None:
             shutil.copy(out, src)
             mux(src, wav, out, spec["duration"], music, work, spec)
         else:
-            render(spec, wav, out, a.fps, work, music)
-    web = web_copy(out)
+            render(spec, wav, out, a.fps, work, music, a.ss)
+    w, h, kbps, dur = hq_report(out)
+    ok = (w, h) == (1080, 1920) and kbps >= HQ_MIN_KBPS
     print(out)
-    print(f"{web} ({web.stat().st_size / 1e6:.1f} MB, use this file for Meta/TikTok uploads)")
+    print(f"HQ master: {w}x{h}, {kbps} kbps video, {dur:.2f} s, {out.stat().st_size / 1e6:.1f} MB "
+          f"-> {'OK, upload THIS file (HQ)' if ok else 'BELOW HQ STANDARD, do not upload'}")
+    if a.web:
+        web = web_copy(out)
+        print(f"{web} ({web.stat().st_size / 1e6:.1f} MB, legacy soft copy, not for normal uploads)")
 
 
 if __name__ == "__main__":

@@ -46,8 +46,8 @@ html,body{margin:0;padding:0;background:#050c1d}
 #phlayer{position:absolute;inset:0;overflow:hidden}
 .ph{position:absolute;inset:0;opacity:0;overflow:hidden;will-change:opacity}
 .ph .fill{position:absolute;inset:-60px;background-size:cover;background-position:center;filter:blur(36px) brightness(.55) saturate(1.2)}
-.ph img{position:absolute;left:0;top:0;width:100%;height:100%;object-fit:cover;transform-origin:50% 50%;will-change:transform}
-.ph.fit img{object-fit:contain;top:560px;height:620px}
+.ph img{position:absolute;left:-10%;top:-10%;width:120%;height:120%;object-fit:cover;transform-origin:50% 50%}
+.ph.fit img{object-fit:contain;left:0;width:100%;top:560px;height:620px}
 #phshade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(5,12,29,.62) 0%,rgba(5,12,29,.08) 20%,rgba(5,12,29,0) 62%,rgba(5,12,29,.4) 76%,rgba(5,12,29,.82) 88%,rgba(5,12,29,.95) 100%)}
 .phcredit{position:absolute;left:90px;right:150px;top:1196px;font-size:22px;color:#c9d6e6;text-shadow:0 2px 8px rgba(0,0,0,.8);z-index:4}
 .dim{position:absolute;inset:0;background:rgba(5,12,29,.5)}
@@ -232,7 +232,7 @@ window.seek = function (t) {
       const op = k === j ? (k === 0 ? 1 : ease((t - sg.start) / .5)) : (k === j - 1 ? 1 : 0);
       sg.el.style.opacity = op; sg.el.style.visibility = op > 0 ? 'visible' : 'hidden';
       if (op > 0) { const p = clamp((t - sg.start) / Math.max(sg.end - sg.start + .5, 1));
-        sg.img.style.transform = `translate(${sg.dir * (p * 40 - 20)}px, ${15 - p * 30}px) scale(${1.04 + 0.1 * p + (k === j ? punch(t) : 0)})`; }
+        const z = 1.02 + 0.08 * p + (k === j ? punch(t) : 0); sg.img.style.transform = `translate(${sg.dir * (p * 40 - 20)}px, ${15 - p * 30}px) scale(${sg.fit === 'contain' ? z : z / 1.2})`; }
     });
     const hookOn = S.scenes[0].type === 'hook' && t < spans[0][1];
     phCredit.textContent = hookOn ? '' : (phSegs[j].credit || ''); phCredit.style.opacity = hookOn ? 0 : 1;

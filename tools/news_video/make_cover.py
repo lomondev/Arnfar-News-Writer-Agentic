@@ -125,7 +125,7 @@ def main() -> None:
     out.parent.mkdir(parents=True, exist_ok=True)
     with sync_playwright() as p:
         b = p.chromium.launch(args=["--force-color-profile=srgb"])
-        pg = b.new_page(viewport={"width": 1080, "height": 1920})
+        pg = b.new_page(viewport={"width": 1080, "height": 1920}, device_scale_factor=2)  # HQ: 2160x3840 cover
         pg.set_content(page_html, wait_until="load")
         pg.evaluate("document.fonts.ready")
         pg.wait_for_timeout(300)
@@ -136,7 +136,7 @@ def main() -> None:
         overflow = pg.evaluate("""() => { const h = document.querySelector('.head').getBoundingClientRect();
             const b = document.querySelector('.big'); const r = b ? b.getBoundingClientRect() : null;
             return {head_bottom: h.bottom, head_right: h.right, big_bottom: r ? r.bottom : 0, head_top: h.top}; }""")
-        pg.locator("#c").screenshot(path=str(out), type="jpeg", quality=92)
+        pg.locator("#c").screenshot(path=str(out), type="jpeg", quality=95)
         b.close()
     if overflow["head_bottom"] > 1490 or (overflow["big_bottom"] and overflow["big_bottom"] > overflow["head_top"]):
         print(f"WARN layout: {overflow} - shorten title/big_label", file=sys.stderr)
