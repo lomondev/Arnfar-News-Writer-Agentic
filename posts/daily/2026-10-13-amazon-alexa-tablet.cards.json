@@ -1,0 +1,92 @@
+{
+  "prefix": "arnfar-alexatablet-20261013",
+  "style": "default",
+  "tags": [
+    "Tech",
+    "Amazon",
+    "Android"
+  ],
+  "hashtags": [
+    "#lomon",
+    "#arnfar",
+    "#Amazon",
+    "#Android"
+  ],
+  "ad": {
+    "brand": "Arnfar",
+    "text": "· ເຕັກໂນໂລຊີ ສຳລັບທຸລະກິດລາວ"
+  },
+  "cards": [
+    {
+      "kind": "hero",
+      "motif": "",
+      "eyebrow": "ເຕັກໂນໂລຊີໃໝ່ · Amazon",
+      "headline": [
+        "Amazon ເລີກ Fire Tablet",
+        "ປ່ຽນມາໃຊ້ Android"
+      ],
+      "accent": "Alexa Tablet · ມີ Google Play",
+      "subhead": [
+        "ແທັບເລັດ Amazon ລຸ້ນທຳອິດ ທີ່ໃຊ້ Android 16",
+        "ເລີ່ມສົ່ງເຄື່ອງ ວັນທີ 14 ຕຸລາ 2026"
+      ],
+      "chips": [
+        "Android 16",
+        "Google Play",
+        "Alexa+"
+      ],
+      "date": "ວັນທີ 13 ຕຸລາ 2026 · ອີງຕາມ Engadget, The Next Web, HotHardware"
+    },
+    {
+      "kind": "stat",
+      "label_top": "ລາຄາເລີ່ມຕົ້ນ · ສະຫະລັດ",
+      "value": "$230",
+      "label": "Alexa Tablet 8 ລຸ້ນເລີ່ມຕົ້ນ (229.99 USD)",
+      "chips": [
+        "8 ນິ້ວ",
+        "64GB",
+        "ມີໂຄສະນາໜ້າລັອກ"
+      ],
+      "note": "ຈ່າຍເພີ່ມ 20 USD ເພື່ອປິດໂຄສະນາໜ້າລັອກ"
+    },
+    {
+      "kind": "points",
+      "tags": [
+        "ລາຄາ",
+        "ສະຫະລັດ"
+      ],
+      "eyebrow": "Alexa Tablet · 3 ລຸ້ນ",
+      "title": "ລຸ້ນ ແລະ ລາຄາ",
+      "items": [
+        {
+          "title": "Alexa Tablet 8 — ເລີ່ມ 229.99 USD",
+          "sub": "ໜ້າຈໍ 8 ນິ້ວ · ລຸ້ນປະຢັດ"
+        },
+        {
+          "title": "Alexa Tablet 11 — ເລີ່ມ 329.99 USD",
+          "sub": "ໜ້າຈໍ 11 ນິ້ວ 90Hz"
+        },
+        {
+          "title": "Alexa Tablet 12 Pro — ເລີ່ມ 499.99 USD",
+          "sub": "ໜ້າຈໍ 12 ນິ້ວ 120Hz · ມີປາກກາ ແລະ ຄີບອດ"
+        }
+      ]
+    },
+    {
+      "kind": "action",
+      "tags": [
+        "ຜູ້ໃຊ້ລາວ",
+        "ແທັບເລັດ"
+      ],
+      "eyebrow": "ສຳລັບຜູ້ໃຊ້ໃນລາວ",
+      "title": "ກ່ອນຊື້ ຄວນຮູ້",
+      "items": [
+        "ໃຊ້ແອັບຈາກ Google Play ໄດ້ ຄືແທັບເລັດ Android ທົ່ວໄປ",
+        "ລາວບໍ່ຢູ່ໃນລາຍຊື່ປະເທດທີ່ວາງຂາຍ",
+        "ຊື້ຜ່ານຕົວແທນ: ກວດເລື່ອງການຮັບປະກັນ"
+      ],
+      "takeaway": "ຜູ້ໃຊ້ຕ້ອງການແອັບຄົບ ຫຼາຍກວ່າລະບົບປິດ",
+      "note": "ລາຄາຢູ່ສະຫະລັດ · ບໍ່ລວມພາສີ ແລະ ຄ່າຂົນສົ່ງ"
+    }
+  ]
+}

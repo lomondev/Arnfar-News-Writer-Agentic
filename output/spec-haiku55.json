@@ -1,0 +1,58 @@
+{
+  "size": "portrait",
+  "prefix": "arnfar-haiku55",
+  "category": "ຂ່າວເຕັກໂນໂລຊີ",
+  "tags": ["AImodel", "Anthropic", "LaoDev"],
+  "motif": "ai",
+  "cards": [
+    {
+      "kind": "showcase",
+      "chart": {
+        "title": "OSWorld 2.1 offline (%)",
+        "legend": ["Haiku 5.5", "Sonnet 5.5", "Haiku 4.5"],
+        "bars": [
+          {"label": "Claude Sonnet 5.5", "value": 83.9, "color": "light"},
+          {"label": "Claude Haiku 5.5", "value": 72.4, "highlight": true},
+          {"label": "GPT-6 Luna", "value": 48.9, "color": "light"},
+          {"label": "Claude Haiku 4.5", "value": 15.7, "muted": true}
+        ]
+      },
+      "bodies": ["Sol", "Terra", "Luna"],
+      "body_subs": ["Sonnet 5.5", "Haiku 5.5", "Haiku 4.5"],
+      "badges": ["$0.10 / 1M input", "1M context"],
+      "date": "ວັນທີ 7 ຕຸລາ 2026 · Anthropic · Release",
+      "headline": ["Claude Haiku 5.5", "ຖືກລົງ 10 ເທົ່າ"],
+      "subhead": ["AI ລຸ້ນນ້ອຍທີ່ໄວ ແລະ ລາຄາຖືກທີ່ສຸດ", "ໃຊ້ຄອມພິວເຕີແທນຄົນເກັ່ງຂຶ້ນ"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "WHAT'S NEW",
+      "title": "ມີຫຍັງໃໝ່?",
+      "items": [
+        {"mark": "check", "text": "ຮັບຂໍ້ມູນໄດ້ 1 ລ້ານ token ຕໍ່ຄັ້ງ (ລຸ້ນເກົ່າ 200,000)"},
+        {"mark": "check", "text": "OSWorld 2.1: 72.4% ທຽບກັບ 15.7% ຂອງ Haiku 4.5"},
+        {"mark": "check", "text": "SWE-bench Multilingual: 83.7%"},
+        {"mark": "dot", "text": "ໃຊ້ໄດ້ໃນແອັບ Claude ທຸກແພັກເກດ ລວມທັງແພັກເກດຟຣີ"}
+      ]
+    },
+    {
+      "kind": "stat",
+      "value": "$0.10 / 1M",
+      "label": "ລາຄາ input token",
+      "note": "Haiku 4.5 ແມ່ນ $1 — ຖືກລົງ 10 ເທົ່າ",
+      "badges": ["ຖືກລົງ 10 ເທົ່າ", "7 ຕ.ລ. 2026"],
+      "chips": ["output $0.50 / 1M", "Batch $0.05 / 1M"]
+    },
+    {
+      "kind": "points",
+      "eyebrow": "PROS & CONS",
+      "title": "ຂໍ້ດີ ແລະ ສິ່ງທີ່ຕ້ອງລະວັງ",
+      "items": [
+        {"mark": "check", "text": "chatbot ແລະ ລະບົບອ່ານໃບບິນ ຕົ້ນທຶນຖືກລົງຫຼາຍ"},
+        {"mark": "check", "text": "ຕັ້ງລະດັບ effort ໄດ້ຕາມແຕ່ລະວຽກ"},
+        {"mark": "cross", "text": "ເກີນ 100,000 token ຕໍ່ຄັ້ງ ລາຄາເພີ່ມ 5 ເທົ່າ"},
+        {"mark": "cross", "text": "ຄະແນນທົດສອບສ່ວນໃຫຍ່ມາຈາກ Anthropic ເອງ"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "out": "out/arnfar-cohere-qwen-beijing",
+  "photo": "photo_c.png",
+  "tag": "ຄວາມປອດໄພ AI",
+  "title": "AI Qwen ຂອງ Alibaba\nແອບສົ່ງໄຟລ໌ໄປເຊີບເວີປັກກິ່ງ?",
+  "desc": "Cohere ພົບຕອນທົດສອບ ລະບົບກັນໄວ້ທັນ ຍັງບໍ່ຮູ້ວ່າຕັ້ງໃຈ ຫຼື ບັກ",
+  "credit": "ຮູບ: Cohere · ຂໍ້ມູນ: Cohere, TechCrunch",
+  "accent": "warn",
+  "platforms": ["facebook"]
+}

@@ -1,0 +1,92 @@
+{
+  "prefix": "arnfar-surface-20261013",
+  "style": "default",
+  "tags": [
+    "Tech",
+    "Microsoft",
+    "Nvidia"
+  ],
+  "hashtags": [
+    "#lomon",
+    "#arnfar",
+    "#Microsoft",
+    "#AI"
+  ],
+  "ad": {
+    "brand": "Arnfar",
+    "text": "· ເຕັກໂນໂລຊີ ສຳລັບທຸລະກິດລາວ"
+  },
+  "cards": [
+    {
+      "kind": "hero",
+      "motif": "",
+      "eyebrow": "ເຕັກໂນໂລຊີໃໝ່ · Microsoft",
+      "headline": [
+        "Surface Laptop Ultra",
+        "ແລ່ນ AI ໃນເຄື່ອງ"
+      ],
+      "accent": "ຊິບ Nvidia RTX Spark",
+      "subhead": [
+        "Surface Laptop ທີ່ແຮງທີ່ສຸດເທົ່າທີ່ເຄີຍມີ",
+        "ເປີດສັ່ງຈອງແລ້ວ · ສົ່ງເຄື່ອງ 16 ຕຸລາ 2026"
+      ],
+      "chips": [
+        "RTX Spark",
+        "mini-LED",
+        "On-device AI"
+      ],
+      "date": "ວັນທີ 13 ຕຸລາ 2026 · ອີງຕາມ TweakTown, Thurrott, Digital Citizen"
+    },
+    {
+      "kind": "stat",
+      "label_top": "ລາຄາເລີ່ມຕົ້ນ · Microsoft Store ສະຫະລັດ",
+      "value": "$2,599",
+      "label": "Surface Laptop Ultra ລຸ້ນເລີ່ມຕົ້ນ",
+      "chips": [
+        "CPU 18 ຄໍ",
+        "24GB",
+        "SSD 512GB"
+      ],
+      "note": "ເລີ່ມສົ່ງເຄື່ອງ ວັນທີ 16 ຕຸລາ 2026"
+    },
+    {
+      "kind": "points",
+      "tags": [
+        "ສະເປັກ",
+        "Hardware"
+      ],
+      "eyebrow": "Surface Laptop Ultra",
+      "title": "ສະເປັກເດັ່ນ",
+      "items": [
+        {
+          "title": "ຊິບ Nvidia RTX Spark N1X",
+          "sub": "CPU, ກາຟິກ RTX ແລະ ໜ່ວຍຄວາມຈຳ ໃນຊິບດຽວ"
+        },
+        {
+          "title": "ໜ້າຈໍ mini-LED 15 ນິ້ວ",
+          "sub": "ຄວາມສະຫວ່າງສູງສຸດ 2,000 nits"
+        },
+        {
+          "title": "ໜ່ວຍຄວາມຈຳສູງສຸດ 128GB",
+          "sub": "ລຸ້ນສູງສຸດ CPU 20 ຄໍ · GPU 6,144 ຄໍ"
+        }
+      ]
+    },
+    {
+      "kind": "action",
+      "tags": [
+        "AI",
+        "ທຸລະກິດລາວ"
+      ],
+      "eyebrow": "ສຳລັບຜູ້ໃຊ້ ແລະ ທຸລະກິດລາວ",
+      "title": "ເໝາະກັບໃຜ",
+      "items": [
+        "ນັກພັດທະນາ ທີ່ຕ້ອງການແລ່ນ AI ໃນເຄື່ອງ",
+        "ນັກອອກແບບ ແລະ ຕັດຕໍ່ວິດີໂອ",
+        "ກວດໂປຣແກຣມທີ່ໃຊ້ ຮອງຮັບຊິບ Arm ກ່ອນຊື້"
+      ],
+      "takeaway": "AI ໃນເຄື່ອງ ຊ່ວຍໃຫ້ຂໍ້ມູນບໍ່ອອກນອກອົງກອນ",
+      "note": "ຍັງບໍ່ມີຂໍ້ມູນການວາງຂາຍຢ່າງເປັນທາງການໃນລາວ"
+    }
+  ]
+}

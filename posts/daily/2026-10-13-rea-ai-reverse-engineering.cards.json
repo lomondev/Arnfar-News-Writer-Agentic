@@ -1,0 +1,92 @@
+{
+  "prefix": "arnfar-rea-20261013",
+  "style": "hacker_grid",
+  "tags": [
+    "AI",
+    "CyberSecurity",
+    "Open Source"
+  ],
+  "hashtags": [
+    "#lomon",
+    "#arnfar",
+    "#AI",
+    "#CyberSecurity"
+  ],
+  "ad": {
+    "brand": "Arnfar",
+    "text": "· ເຕັກໂນໂລຊີ ສຳລັບທຸລະກິດລາວ"
+  },
+  "cards": [
+    {
+      "kind": "hero",
+      "motif": "",
+      "eyebrow": "AI · ຄວາມປອດໄພໄຊເບີ",
+      "headline": [
+        "REA ໃຫ້ AI ຊ່ວຍ",
+        "Reverse Engineering"
+      ],
+      "accent": "Claude Code + Ghidra + IDA",
+      "subhead": [
+        "ໂຄງການ open source ທີ່ເປັນກະແສໃນ GitHub",
+        "ວິເຄາະໂປຣແກຣມ ທີ່ບໍ່ມີ source code"
+      ],
+      "chips": [
+        "MCP",
+        "Ghidra",
+        "IDA Pro"
+      ],
+      "date": "ວັນທີ 13 ຕຸລາ 2026 · ອີງຕາມ Cyber Security News, GBHackers, byteiota"
+    },
+    {
+      "kind": "stat",
+      "label_top": "REA · Reverse Engineer Anything",
+      "value": "3",
+      "label": "ເຄື່ອງມືວິເຄາະ ທີ່ AI ສັ່ງໃຊ້ໄດ້ຜ່ານ REA",
+      "chips": [
+        "Ghidra",
+        "IDA Pro",
+        "Hopper"
+      ],
+      "note": "ຮອງຮັບ Claude Code, Cursor, Codex ແລະ Gemini CLI"
+    },
+    {
+      "kind": "points",
+      "tags": [
+        "REA",
+        "Reverse Engineering"
+      ],
+      "eyebrow": "REA · ສິ່ງທີ່ວິເຄາະໄດ້",
+      "title": "REA ເຮັດຫຍັງໄດ້",
+      "items": [
+        {
+          "title": "ໂປຣແກຣມ native",
+          "sub": "pseudocode, assembly, strings ແລະ ຟັງຊັນ"
+        },
+        {
+          "title": "ແອັບ Android, .NET ແລະ Electron",
+          "sub": "ວິເຄາະໄດ້ ໂດຍບໍ່ຕ້ອງມີ source code"
+        },
+        {
+          "title": "ເຟີມແວອຸປະກອນ",
+          "sub": "AI ສະຫຼຸບຜົນ ພ້ອມຫຼັກຖານ"
+        }
+      ]
+    },
+    {
+      "kind": "action",
+      "tags": [
+        "ຄວາມປອດໄພ",
+        "ທີມ IT ລາວ"
+      ],
+      "eyebrow": "ຖ້າຈະທົດລອງ",
+      "title": "ໃຊ້ໃຫ້ຖືກຕ້ອງ ແລະ ປອດໄພ",
+      "items": [
+        "ໃຊ້ກັບຊອບແວທີ່ມີສິດ ຫຼື ໄດ້ຮັບອະນຸຍາດເທົ່ານັ້ນ",
+        "ວິເຄາະໄຟລ໌ໜ້າສົງໄສ ໃນ VM ທີ່ແຍກອອກ",
+        "ຜົນທີ່ພົບ ຖືກສົ່ງໄປຫາຜູ້ໃຫ້ບໍລິການ AI"
+      ],
+      "takeaway": "AI ຊ່ວຍວິເຄາະໄວຂຶ້ນ ແຕ່ຄົນຕ້ອງກວດຜົນສະເໝີ",
+      "note": "ຕົວຢ່າງຜົນງານ ຍັງບໍ່ມີການທົດສອບອິດສະຫຼະ"
+    }
+  ]
+}

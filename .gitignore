@@ -25,3 +25,33 @@ font/*.eot
 # === Temp / scratch ===
 *.tmp
 *.log
+
+# === Images, video, audio — generated media stays local, never pushed ===
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.tif
+*.tiff
+*.heic
+*.psd
+*.svg
+*.ico
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.avi
+*.m4v
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.ogg
+*.flac
+audio/
+output/videos/
+# Exception: brand logos the card renderers load at runtime
+!arnfar-icon/*.png

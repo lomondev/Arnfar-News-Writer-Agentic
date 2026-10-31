@@ -1,0 +1,92 @@
+{
+  "prefix": "arnfar-diagram-20261013",
+  "style": "diagram",
+  "tags": [
+    "AI",
+    "Diagram",
+    "Tools"
+  ],
+  "hashtags": [
+    "#lomon",
+    "#arnfar",
+    "#AI",
+    "#Diagram"
+  ],
+  "ad": {
+    "brand": "Arnfar",
+    "text": "· ເຕັກໂນໂລຊີ ສຳລັບທຸລະກິດລາວ"
+  },
+  "cards": [
+    {
+      "kind": "hero",
+      "motif": "",
+      "eyebrow": "ເຄື່ອງມື AI · ແຜນພາບ",
+      "headline": [
+        "ແຕ້ມ Diagram",
+        "ດ້ວຍການພິມບອກ"
+      ],
+      "accent": "Flowchart ພາຍໃນບໍ່ເທົ່າໃດວິນາທີ",
+      "subhead": [
+        "ແຜນພາບລະບົບ, flowchart ແລະ ຂັ້ນຕອນການເຮັດວຽກ",
+        "AI ແຕ້ມໃຫ້ — ທ່ານກວດ ແລະ ແກ້ຕໍ່"
+      ],
+      "chips": [
+        "diagram-design",
+        "draw.io",
+        "Excalidraw"
+      ],
+      "date": "ວັນທີ 13 ຕຸລາ 2026 · ອີງຕາມ GitHub, AIToolly, Classmethod"
+    },
+    {
+      "kind": "stat",
+      "label_top": "diagram-design · GitHub Trending",
+      "value": "44",
+      "label": "ແບບແຜນພາບ ທີ່ AI ແຕ້ມໃຫ້ໄດ້",
+      "chips": [
+        "Architecture",
+        "Flowchart",
+        "Sankey"
+      ],
+      "note": "open source (MIT) · ໃຊ້ກັບ Claude Code, Codex, Cursor"
+    },
+    {
+      "kind": "points",
+      "tags": [
+        "AI",
+        "Diagram"
+      ],
+      "eyebrow": "ເຄື່ອງມື AI ແຕ້ມແຜນພາບ",
+      "title": "3 ເຄື່ອງມືໜ້າສົນໃຈ",
+      "items": [
+        {
+          "title": "diagram-design",
+          "sub": "ແຜນພາບສວຍ ຕາມສີແບຣນ · HTML, SVG, PNG"
+        },
+        {
+          "title": "drawio-skill",
+          "sub": "ໂຄດ ແລະ SQL ເປັນແຜນພາບ draw.io ແກ້ໄຂໄດ້"
+        },
+        {
+          "title": "Excalidraw MCP",
+          "sub": "ແຕ້ມແບບລາຍມື ຈາກການແຊັດກັບ AI"
+        }
+      ]
+    },
+    {
+      "kind": "action",
+      "tags": [
+        "ທີມ IT ລາວ",
+        "ນັກສຶກສາ"
+      ],
+      "eyebrow": "ສຳລັບນັກພັດທະນາ ແລະ ທຸລະກິດລາວ",
+      "title": "ກ່ອນເລີ່ມໃຊ້ ຄວນເຮັດແນວໃດ",
+      "items": [
+        "ເລີ່ມຈາກ flowchart ງ່າຍໆ ກ່ອນ",
+        "ກວດທຸກກ່ອງ ແລະ ລູກສອນ ວ່າຖືກຕ້ອງ",
+        "ຢ່າສົ່ງ IP ຫຼື ລະຫັດຜ່ານ ໄປໃຫ້ AI"
+      ],
+      "takeaway": "AI ແຕ້ມໃຫ້ໄວ ແຕ່ຄົນຕ້ອງກວດຄວາມຖືກຕ້ອງ",
+      "note": "ຍັງບໍ່ໄດ້ທົດສອບການສະແດງພາສາລາວໃນແຜນພາບ"
+    }
+  ]
+}

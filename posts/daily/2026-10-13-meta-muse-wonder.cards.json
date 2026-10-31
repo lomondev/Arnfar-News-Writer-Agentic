@@ -1,0 +1,95 @@
+{
+  "prefix": "arnfar-musewonder-20261013",
+  "style": "default",
+  "tags": [
+    "AI",
+    "Meta",
+    "Muse Wonder"
+  ],
+  "hashtags": [
+    "#lomon",
+    "#arnfar",
+    "#AI",
+    "#Meta"
+  ],
+  "ad": {
+    "brand": "Arnfar",
+    "text": "· ເຕັກໂນໂລຊີ ສຳລັບທຸລະກິດລາວ"
+  },
+  "bg_image": "output/bg/meta-muse-wonder.png",
+  "bg_scale": 0.8,
+  "bg_shift_x": 95,
+  "cards": [
+    {
+      "kind": "hero",
+      "motif": "",
+      "eyebrow": "Meta · AI ໃໝ່",
+      "headline": [
+        "Meta ເປີດໂຕ",
+        "Muse Wonder"
+      ],
+      "accent": "AI ລະດັບແຖວໜ້າ ໂຕທຳອິດ",
+      "subhead": [
+        "ຈື່ຂໍ້ມູນຜູ້ໃຊ້ ຂ້າມການສົນທະນາ",
+        "ແລະ ພະຍາຍາມຈົນວຽກສຳເລັດ"
+      ],
+      "chips": [
+        "Active Memory",
+        "Active Focus",
+        "1M context"
+      ],
+      "date": "ວັນທີ 13 ຕຸລາ 2026 · ອີງຕາມ Meta, TechCrunch, OpenRouter"
+    },
+    {
+      "kind": "stat",
+      "label_top": "ລາຄາ API · Muse Wonder",
+      "value": "$4",
+      "label": "ຕໍ່ 1 ລ້ານ token (input) · output $20",
+      "chips": [
+        "Meta Model API",
+        "Muse Code",
+        "1M context"
+      ],
+      "note": "Muse Wonder Full ສະເພາະສະມາຊິກ Muse Code"
+    },
+    {
+      "kind": "points",
+      "tags": [
+        "Muse Wonder",
+        "AI Agent"
+      ],
+      "eyebrow": "Muse Wonder ເຮັດຫຍັງໄດ້",
+      "title": "3 ຈຸດເດັ່ນ",
+      "items": [
+        {
+          "title": "Active Memory",
+          "sub": "ຈື່ຂໍ້ມູນສຳຄັນ ຂ້າມການສົນທະນາ"
+        },
+        {
+          "title": "Active Focus",
+          "sub": "ຕິດຂັດກໍລອງວິທີໃໝ່ · ຖາມກ່ອນເຮັດສິ່ງສຳຄັນ"
+        },
+        {
+          "title": "ຮັບຂໍ້ມູນຫຼາຍແບບ",
+          "sub": "ຂໍ້ຄວາມ, ຮູບ, ວິດີໂອ, ສຽງ ແລະ PDF"
+        }
+      ]
+    },
+    {
+      "kind": "action",
+      "tags": [
+        "ຜູ້ໃຊ້ລາວ",
+        "ນັກພັດທະນາ"
+      ],
+      "eyebrow": "ສຳລັບຜູ້ໃຊ້ ແລະ ນັກພັດທະນາລາວ",
+      "title": "ຄວນເຮັດແນວໃດ",
+      "items": [
+        "ນັກພັດທະນາ: ທົດລອງຜ່ານ API ກັບວຽກຈິງ",
+        "ກວດການຕັ້ງຄ່າຄວາມຈຳ ຂອງຜູ້ຊ່ວຍ AI",
+        "ຢ່າແບ່ງປັນລະຫັດຜ່ານ ຫຼື ຂໍ້ມູນລູກຄ້າ"
+      ],
+      "takeaway": "AI ທີ່ຈື່ທ່ານໄດ້ — ສະດວກ ແຕ່ຕ້ອງລະວັງ",
+      "note": "ຄະແນນ benchmark ສ່ວນຫຼາຍ ແມ່ນຜົນທົດສອບຂອງ Meta ເອງ"
+    }
+  ]
+}

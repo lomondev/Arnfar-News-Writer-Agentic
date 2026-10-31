@@ -1,0 +1,92 @@
+{
+  "prefix": "arnfar-aivideo-20261013",
+  "style": "video",
+  "tags": [
+    "AI",
+    "Video",
+    "Creator"
+  ],
+  "hashtags": [
+    "#lomon",
+    "#arnfar",
+    "#AI",
+    "#VideoEditing"
+  ],
+  "ad": {
+    "brand": "Arnfar",
+    "text": "· ເຕັກໂນໂລຊີ ສຳລັບທຸລະກິດລາວ"
+  },
+  "cards": [
+    {
+      "kind": "hero",
+      "motif": "",
+      "eyebrow": "ເຄື່ອງມື AI · ຕັດວິດີໂອ",
+      "headline": [
+        "ຕັດວິດີໂອງ່າຍຂຶ້ນ",
+        "ດ້ວຍການພິມສັ່ງ"
+      ],
+      "accent": "ບອກ AI ແທນການລາກ timeline",
+      "subhead": [
+        "ຕັດຄຳຟຸ່ມເຟືອຍ, ຊ່ວງງຽບ, ໃສ່ເພງ ແລະ subtitle",
+        "AI ສະເໜີແຜນ — ທ່ານອະນຸມັດ"
+      ],
+      "chips": [
+        "video-use",
+        "YouTube",
+        "Descript"
+      ],
+      "date": "ວັນທີ 13 ຕຸລາ 2026 · ອີງຕາມ EveryDev, Crypto Briefing, CreateWith"
+    },
+    {
+      "kind": "stat",
+      "label_top": "ເຄື່ອງມື AI ຕັດວິດີໂອ · ຕຸລາ 2026",
+      "value": "3",
+      "label": "ເຄື່ອງມື ທີ່ຕັດວິດີໂອດ້ວຍການແຊັດ",
+      "chips": [
+        "Claude Code",
+        "Gemini",
+        "ChatGPT"
+      ],
+      "note": "YouTube ຈະເປີດໃຫ້ໃຊ້ຕົ້ນປີ 2027"
+    },
+    {
+      "kind": "points",
+      "tags": [
+        "AI",
+        "Video"
+      ],
+      "eyebrow": "ເຄື່ອງມື AI ຕັດວິດີໂອ",
+      "title": "3 ເຄື່ອງມືໜ້າສົນໃຈ",
+      "items": [
+        {
+          "title": "video-use — skill ສຳລັບ AI agent",
+          "sub": "open source · ໃຊ້ກັບ Claude Code ແລະ Codex"
+        },
+        {
+          "title": "YouTube Shorts ແລະ Create",
+          "sub": "ແຊັດກັບ Gemini ເພື່ອຕັດ · ຕົ້ນປີ 2027"
+        },
+        {
+          "title": "Descript ໃນ ChatGPT",
+          "sub": "ຕັດຄຳຟຸ່ມເຟືອຍ ແລະ ຄລິບສັ້ນ ດ້ວຍການພິມ"
+        }
+      ]
+    },
+    {
+      "kind": "action",
+      "tags": [
+        "Creator ລາວ",
+        "TikTok"
+      ],
+      "eyebrow": "ສຳລັບຮ້ານຄ້າ ແລະ ນັກສ້າງເນື້ອຫາລາວ",
+      "title": "ກ່ອນເລີ່ມໃຊ້ ຄວນເຮັດແນວໃດ",
+      "items": [
+        "ທົດລອງກັບຄລິບສັ້ນ ແລະ ເກັບໄຟລ໌ຕົ້ນສະບັບ",
+        "ທົດສອບ subtitle ພາສາລາວ ວ່າຖືກຕ້ອງບໍ",
+        "ຢ່າອັບໂຫຼດວິດີໂອທີ່ມີຂໍ້ມູນລູກຄ້າ"
+      ],
+      "takeaway": "AI ຕັດໃຫ້ ແຕ່ຄົນຕັດສິນໃຈສຸດທ້າຍ",
+      "note": "ວິດີໂອ ແລະ ສຽງ ຖືກສົ່ງໄປປະມວນຜົນໃນຄລາວ"
+    }
+  ]
+}

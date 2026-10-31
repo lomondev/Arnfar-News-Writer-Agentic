@@ -1,0 +1,96 @@
+{
+  "prefix": "arnfar-aiedu-20261013",
+  "style": "education",
+  "tags": [
+    "AI",
+    "ການສຶກສາ",
+    "EdTech"
+  ],
+  "hashtags": [
+    "#lomon",
+    "#arnfar",
+    "#AI",
+    "#ການສຶກສາ"
+  ],
+  "ad": {
+    "brand": "Arnfar",
+    "text": "· ເຕັກໂນໂລຊີ ສຳລັບທຸລະກິດລາວ"
+  },
+  "cards": [
+    {
+      "kind": "hero",
+      "motif": "",
+      "eyebrow": "AI · ການສຶກສາ",
+      "headline": [
+        "AI ຄູສອນ",
+        "ຂອງທຸກຄົນ"
+      ],
+      "accent": "ໃຊ້ຖືກວິທີ ຮຽນເກັ່ງຂຶ້ນ",
+      "subhead": [
+        "ໃຊ້ຜິດວິທີ ອາດເຮັດໃຫ້ຮຽນອ່ອນລົງ",
+        "ສະຫຼຸບຈາກລາຍງານ OECD ແລະ ເຄື່ອງມືໂໝດຮຽນ"
+      ],
+      "chips": [
+        "OECD 2026",
+        "Study Mode",
+        "Guided Learning"
+      ],
+      "date": "ວັນທີ 13 ຕຸລາ 2026 · ອີງຕາມ OECD, TechCrunch, Google"
+    },
+    {
+      "kind": "stat",
+      "label_top": "OECD · ການສຳຫຼວດ TALIS 2024",
+      "value": "37%",
+      "label": "ຂອງຄູ ໃຊ້ AI ໃນການເຮັດວຽກແລ້ວ",
+      "chips": [
+        "ກະກຽມບົດສອນ",
+        "ແບບຝຶກຫັດ",
+        "ປະຢັດເວລາ"
+      ],
+      "note": "ຄູມັດທະຍົມຕອນຕົ້ນ · ລາຍງານ Digital Education Outlook 2026"
+    },
+    {
+      "kind": "points",
+      "tags": [
+        "ໂໝດຮຽນ",
+        "ຟຣີ"
+      ],
+      "eyebrow": "AI ທີ່ພາຄິດ ບໍ່ແມ່ນບອກຄຳຕອບ",
+      "title": "3 ໂໝດຮຽນ ທີ່ໃຊ້ໄດ້ຟຣີ",
+      "items": [
+        {
+          "title": "ChatGPT Study Mode",
+          "sub": "ຖາມກ່ອນອະທິບາຍ ພ້ອມແບບທົດສອບ"
+        },
+        {
+          "title": "Gemini Guided Learning",
+          "sub": "ບົດຮຽນເປັນຂັ້ນຕອນ ພ້ອມຮູບ ແລະ quiz"
+        },
+        {
+          "title": "Claude Learning Mode",
+          "sub": "ຖາມນຳທາງ ໃຫ້ຄິດຫາຄຳຕອບເອງ"
+        }
+      ]
+    },
+    {
+      "kind": "action",
+      "tags": [
+        "ນັກຮຽນ",
+        "ຄູ",
+        "ພໍ່ແມ່"
+      ],
+      "eyebrow": "ສຳລັບນັກຮຽນ, ຄູ ແລະ ພໍ່ແມ່ລາວ",
+      "title": "ໃຊ້ AI ໃຫ້ຮຽນເກັ່ງແທ້",
+      "items": [
+        "ພະຍາຍາມຕອບເອງກ່ອນ ຈຶ່ງຖາມ AI",
+        "ຄູກວດເນື້ອຫາ AI ທຸກຄັ້ງກ່ອນສອນ",
+        "ໃຫ້ລູກອະທິບາຍສິ່ງທີ່ຮຽນ ດ້ວຍຄຳເວົ້າຕົນເອງ"
+      ],
+      "takeaway": "AI ພາຄິດ — ບໍ່ແມ່ນຄິດແທນ",
+      "note": "ສອບເສັງໂດຍບໍ່ມີ AI ຄະແນນຕ່ຳລົງ 17% ໃນການທົດລອງ"
+    }
+  ],
+  "bg_image": "output/bg/ai-education.png",
+  "bg_shift_x": 40,
+  "bg_scale": 0.8
+}
